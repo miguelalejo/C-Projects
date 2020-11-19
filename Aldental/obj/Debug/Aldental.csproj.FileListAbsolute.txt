@@ -1,0 +1,146 @@
+C:\Documents and Settings\XPproyecto\Escritorio\NuevoAldental\Aldental\Aldental\bin\Aldental.dll
+C:\Documents and Settings\XPproyecto\Escritorio\NuevoAldental\Aldental\Aldental\bin\Aldental.pdb
+C:\Documents and Settings\XPproyecto\Escritorio\NuevoAldental\Aldental\Aldental\bin\BaseAldental.dll
+C:\Documents and Settings\XPproyecto\Escritorio\NuevoAldental\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Documents and Settings\XPproyecto\Escritorio\NuevoAldental\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Documents and Settings\XPproyecto\Escritorio\NuevoAldental\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Documents and Settings\XPproyecto\Escritorio\NuevoAldental\Aldental\Aldental\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\XPproyecto\Escritorio\NuevoAldental\Aldental\Aldental\obj\Debug\Aldental.dll.licenses
+C:\Documents and Settings\XPproyecto\Escritorio\NuevoAldental\Aldental\Aldental\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\XPproyecto\Escritorio\NuevoAldental\Aldental\Aldental\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\XPproyecto\Escritorio\NuevoAldental\Aldental\Aldental\obj\Debug\Aldental.dll
+C:\Documents and Settings\XPproyecto\Escritorio\NuevoAldental\Aldental\Aldental\obj\Debug\Aldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental GRUPO 7\Aldental\Aldental\bin\Aldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental GRUPO 7\Aldental\Aldental\bin\Aldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental GRUPO 7\Aldental\Aldental\bin\BaseAldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental GRUPO 7\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental GRUPO 7\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental GRUPO 7\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental GRUPO 7\Aldental\Aldental\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental GRUPO 7\Aldental\Aldental\obj\Debug\Aldental.dll.licenses
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental GRUPO 7\Aldental\Aldental\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental GRUPO 7\Aldental\Aldental\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental GRUPO 7\Aldental\Aldental\obj\Debug\Aldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental GRUPO 7\Aldental\Aldental\obj\Debug\Aldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental presentar ingeniero\Aldental\Aldental\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental presentar ingeniero\Aldental\Aldental\obj\Debug\Aldental.dll.licenses
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental presentar ingeniero\Aldental\Aldental\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental presentar ingeniero\Aldental\Aldental\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental presentar ingeniero\Aldental\Aldental\obj\Debug\Aldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental presentar ingeniero\Aldental\Aldental\bin\Aldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental presentar ingeniero\Aldental\Aldental\bin\Aldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental presentar ingeniero\Aldental\Aldental\bin\BaseAldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental presentar ingeniero\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental presentar ingeniero\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental presentar ingeniero\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental presentar ingeniero\Aldental\Aldental\obj\Debug\Aldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\bin\Aldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\bin\Aldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\bin\BaseAldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\obj\Debug\Aldental.dll.licenses
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\obj\Debug\Aldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\obj\Debug\Aldental.pdb
+C:\Users\COMPAC\Desktop\30-12-09\Aldental\Aldental\bin\Aldental.dll
+C:\Users\COMPAC\Desktop\30-12-09\Aldental\Aldental\bin\Aldental.pdb
+C:\Users\COMPAC\Desktop\30-12-09\Aldental\Aldental\bin\BaseAldental.dll
+C:\Users\COMPAC\Desktop\30-12-09\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Users\COMPAC\Desktop\30-12-09\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Users\COMPAC\Desktop\30-12-09\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Users\COMPAC\Desktop\30-12-09\Aldental\Aldental\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\30-12-09\Aldental\Aldental\obj\Debug\Aldental.dll.licenses
+C:\Users\COMPAC\Desktop\30-12-09\Aldental\Aldental\obj\Debug\RdlCompile.cache
+C:\Users\COMPAC\Desktop\30-12-09\Aldental\Aldental\obj\Debug\RdlCompile.compiled
+C:\Users\COMPAC\Desktop\30-12-09\Aldental\Aldental\obj\Debug\Aldental.dll
+C:\Users\COMPAC\Desktop\30-12-09\Aldental\Aldental\obj\Debug\Aldental.pdb
+C:\Users\COMPAC\Desktop\01 03 2010\Aldental\Aldental\bin\Aldental.dll
+C:\Users\COMPAC\Desktop\01 03 2010\Aldental\Aldental\bin\Aldental.pdb
+C:\Users\COMPAC\Desktop\01 03 2010\Aldental\Aldental\bin\BaseAldental.dll
+C:\Users\COMPAC\Desktop\01 03 2010\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Users\COMPAC\Desktop\01 03 2010\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Users\COMPAC\Desktop\01 03 2010\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Users\COMPAC\Desktop\01 03 2010\Aldental\Aldental\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\01 03 2010\Aldental\Aldental\obj\Debug\Aldental.dll.licenses
+C:\Users\COMPAC\Desktop\01 03 2010\Aldental\Aldental\obj\Debug\RdlCompile.cache
+C:\Users\COMPAC\Desktop\01 03 2010\Aldental\Aldental\obj\Debug\RdlCompile.compiled
+C:\Users\COMPAC\Desktop\01 03 2010\Aldental\Aldental\obj\Debug\Aldental.dll
+C:\Users\COMPAC\Desktop\01 03 2010\Aldental\Aldental\obj\Debug\Aldental.pdb
+C:\Users\Administrator\Desktop\01 03 2010\Aldental\Aldental\bin\Aldental.dll
+C:\Users\Administrator\Desktop\01 03 2010\Aldental\Aldental\bin\Aldental.pdb
+C:\Users\Administrator\Desktop\01 03 2010\Aldental\Aldental\bin\BaseAldental.dll
+C:\Users\Administrator\Desktop\01 03 2010\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Users\Administrator\Desktop\01 03 2010\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Users\Administrator\Desktop\01 03 2010\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Users\Administrator\Desktop\01 03 2010\Aldental\Aldental\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\01 03 2010\Aldental\Aldental\obj\Debug\Aldental.dll.licenses
+C:\Users\Administrator\Desktop\01 03 2010\Aldental\Aldental\obj\Debug\RdlCompile.cache
+C:\Users\Administrator\Desktop\01 03 2010\Aldental\Aldental\obj\Debug\RdlCompile.compiled
+C:\Users\Administrator\Desktop\01 03 2010\Aldental\Aldental\obj\Debug\Aldental.dll
+C:\Users\Administrator\Desktop\01 03 2010\Aldental\Aldental\obj\Debug\Aldental.pdb
+C:\Users\COMPAC\Desktop\ALDENTAL\01 03 2010\Aldental\Aldental\bin\Aldental.dll
+C:\Users\COMPAC\Desktop\ALDENTAL\01 03 2010\Aldental\Aldental\bin\Aldental.pdb
+C:\Users\COMPAC\Desktop\ALDENTAL\01 03 2010\Aldental\Aldental\bin\BaseAldental.dll
+C:\Users\COMPAC\Desktop\ALDENTAL\01 03 2010\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Users\COMPAC\Desktop\ALDENTAL\01 03 2010\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Users\COMPAC\Desktop\ALDENTAL\01 03 2010\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Users\COMPAC\Desktop\ALDENTAL\01 03 2010\Aldental\Aldental\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\ALDENTAL\01 03 2010\Aldental\Aldental\obj\Debug\Aldental.dll.licenses
+C:\Users\COMPAC\Desktop\ALDENTAL\01 03 2010\Aldental\Aldental\obj\Debug\RdlCompile.cache
+C:\Users\COMPAC\Desktop\ALDENTAL\01 03 2010\Aldental\Aldental\obj\Debug\RdlCompile.compiled
+C:\Users\COMPAC\Desktop\ALDENTAL\01 03 2010\Aldental\Aldental\obj\Debug\Aldental.dll
+C:\Users\COMPAC\Desktop\ALDENTAL\01 03 2010\Aldental\Aldental\obj\Debug\Aldental.pdb
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\bin\Aldental.dll
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\bin\Aldental.pdb
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\bin\BaseAldental.dll
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\obj\Debug\Aldental.dll.licenses
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\obj\Debug\Aldental.dll
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\obj\Debug\Aldental.pdb
+C:\Users\COMPAC\Desktop\1\Aldental\Aldental\bin\Aldental.dll
+C:\Users\COMPAC\Desktop\1\Aldental\Aldental\bin\Aldental.pdb
+C:\Users\COMPAC\Desktop\1\Aldental\Aldental\bin\BaseAldental.dll
+C:\Users\COMPAC\Desktop\1\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Users\COMPAC\Desktop\1\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Users\COMPAC\Desktop\1\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Users\COMPAC\Desktop\1\Aldental\Aldental\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\1\Aldental\Aldental\obj\Debug\Aldental.dll.licenses
+C:\Users\COMPAC\Desktop\1\Aldental\Aldental\obj\Debug\RdlCompile.cache
+C:\Users\COMPAC\Desktop\1\Aldental\Aldental\obj\Debug\RdlCompile.compiled
+C:\Users\COMPAC\Desktop\1\Aldental\Aldental\obj\Debug\Aldental.dll
+C:\Users\COMPAC\Desktop\1\Aldental\Aldental\obj\Debug\Aldental.pdb
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\bin\Aldental.dll
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\bin\Aldental.pdb
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\bin\BaseAldental.dll
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\obj\Debug\Aldental.dll.licenses
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\obj\Debug\Aldental.dll
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\obj\Debug\Aldental.pdb
+C:\Users\COMPAC\Desktop\Aldental\Aldental\bin\Aldental.dll
+C:\Users\COMPAC\Desktop\Aldental\Aldental\bin\Aldental.pdb
+C:\Users\COMPAC\Desktop\Aldental\Aldental\bin\BaseAldental.dll
+C:\Users\COMPAC\Desktop\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Users\COMPAC\Desktop\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Users\COMPAC\Desktop\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Users\COMPAC\Desktop\Aldental\Aldental\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\Aldental\Aldental\obj\Debug\Aldental.dll.licenses
+C:\Users\COMPAC\Desktop\Aldental\Aldental\obj\Debug\RdlCompile.cache
+C:\Users\COMPAC\Desktop\Aldental\Aldental\obj\Debug\RdlCompile.compiled
+C:\Users\COMPAC\Desktop\Aldental\Aldental\obj\Debug\Aldental.dll
+C:\Users\COMPAC\Desktop\Aldental\Aldental\obj\Debug\Aldental.pdb
+C:\Users\COMPAC\Desktop\Aldental\Aldental\obj\Debug\Aldental.XtraReportEFD.resources
+C:\Users\COMPAC\Desktop\Aldental\Aldental\obj\Debug\Aldental.csproj.GenerateResource.Cache

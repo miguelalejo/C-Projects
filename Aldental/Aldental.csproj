@@ -1,0 +1,1679 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{18C31F1B-C395-4A01-9485-B8694FA0EB6F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aldental</RootNamespace>
+    <AssemblyName>Aldental</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.Web\10.5.3700.0__692fbea5521e1304\CrystalDecisions.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v9.1.Core, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxEditors.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxGauges.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxGridView.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxGridView.v9.1.Export, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v9.1.Export, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxScheduler.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxScheduler.v9.1.Design, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxTreeList.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxTreeList.v9.1.Export, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v9.1.Core, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v9.1.Web, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v9.1.Core, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v9.1.Reporting, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebForm_AsientosC.aspx" />
+    <Content Include="WebForm_BuscarClien.aspx" />
+    <Content Include="WebForm_BuscarEmplea.aspx" />
+    <Content Include="WebForm_CtasXcobrar.aspx" />
+    <Content Include="WebForm_Egresos.aspx" />
+    <Content Include="WebForm_EntregaBodega.aspx" />
+    <Content Include="WebForm_FacturaVent.aspx" />
+    <Content Include="WebForm_Ingresos.aspx" />
+    <Content Include="WebForm_Kardex.aspx" />
+    <Content Include="WebForm_UsuarioPerfil.aspx" />
+    <Content Include="WebForm_CuentasPorPagar.aspx" />
+    <Content Include="WebForm_Producto.aspx" />
+    <Content Include="WebForm_Resultados.aspx" />
+    <Content Include="WebForm_MovimientosInventario.aspx" />
+    <Content Include="Inicio.aspx" />
+    <Content Include="style.css" />
+    <Content Include="Stylesheet1.css" />
+    <Content Include="Web.config" />
+    <Content Include="WebInicioS.aspx" />
+    <Content Include="WebSistPrincipal.aspx" />
+    <Content Include="WebUserControlBuscarEmpleado.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="basealdentalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>basealdentalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_AjusteExistencia.aspx.cs">
+      <DependentUpon>WebForm_AjusteExistencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_AjusteExistencia.aspx.designer.cs">
+      <DependentUpon>WebForm_AjusteExistencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_AsientosC.aspx.cs">
+      <DependentUpon>WebForm_AsientosC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_AsientosC.aspx.designer.cs">
+      <DependentUpon>WebForm_AsientosC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_bienve.aspx.cs">
+      <DependentUpon>WebForm_bienve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_bienve.aspx.designer.cs">
+      <DependentUpon>WebForm_bienve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarCargo.aspx.cs">
+      <DependentUpon>WebForm_BuscarCargo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarCargo.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarCargo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarClien.aspx.cs">
+      <DependentUpon>WebForm_BuscarClien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarClien.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarClien.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarDepartamento.aspx.cs">
+      <DependentUpon>WebForm_BuscarDepartamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarDepartamento.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarDepartamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarDescuento.aspx.cs">
+      <DependentUpon>WebForm_BuscarDescuento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarDescuento.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarDescuento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarEmplea.aspx.cs">
+      <DependentUpon>WebForm_BuscarEmplea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarEmplea.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarEmplea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarFacturaCliente.aspx.cs">
+      <DependentUpon>WebForm_BuscarFacturaCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarFacturaCliente.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarFacturaCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarImpuesto.aspx.cs">
+      <DependentUpon>WebForm_BuscarImpuesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarImpuesto.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarImpuesto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarOrdenCompra.aspx.cs">
+      <DependentUpon>WebForm_BuscarOrdenCompra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarOrdenCompra.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarOrdenCompra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarPerfil.aspx.cs">
+      <DependentUpon>WebForm_BuscarPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarPerfil.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarUsuarioPerfil.aspx.cs">
+      <DependentUpon>WebForm_BuscarUsuarioPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarUsuarioPerfil.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarUsuarioPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Cargo.aspx.cs">
+      <DependentUpon>WebForm_Cargo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Cargo.aspx.designer.cs">
+      <DependentUpon>WebForm_Cargo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Cliente.aspx.cs">
+      <DependentUpon>WebForm_Cliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Cliente.aspx.designer.cs">
+      <DependentUpon>WebForm_Cliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Departamento.aspx.cs">
+      <DependentUpon>WebForm_Departamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Departamento.aspx.designer.cs">
+      <DependentUpon>WebForm_Departamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Descuento.aspx.cs">
+      <DependentUpon>WebForm_Descuento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Descuento.aspx.designer.cs">
+      <DependentUpon>WebForm_Descuento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Empleado.aspx.cs">
+      <DependentUpon>WebForm_Empleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Empleado.aspx.designer.cs">
+      <DependentUpon>WebForm_Empleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_FacturaCliente.aspx.cs">
+      <DependentUpon>WebForm_FacturaCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_FacturaCliente.aspx.designer.cs">
+      <DependentUpon>WebForm_FacturaCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Impuesto.aspx.cs">
+      <DependentUpon>WebForm_Impuesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Impuesto.aspx.designer.cs">
+      <DependentUpon>WebForm_Impuesto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarMarcaProducto.aspx.cs">
+      <DependentUpon>WebForm_BuscarMarcaProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarMarcaProducto.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarMarcaProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarMaterialProducto.aspx.cs">
+      <DependentUpon>WebForm_BuscarMaterialProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarMaterialProducto.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarMaterialProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarModeloProducto.aspx.cs">
+      <DependentUpon>WebForm_BuscarModeloProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarModeloProducto.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarModeloProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarProveedor.aspx.cs">
+      <DependentUpon>WebForm_BuscarProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarProveedor.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscarTipoProducto.aspx.cs">
+      <DependentUpon>WebForm_BuscarTipoProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscarTipoProducto.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscarTipoProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_CtasXcobrar.aspx.cs">
+      <DependentUpon>WebForm_CtasXcobrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_CtasXcobrar.aspx.designer.cs">
+      <DependentUpon>WebForm_CtasXcobrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Egresos.aspx.cs">
+      <DependentUpon>WebForm_Egresos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Egresos.aspx.designer.cs">
+      <DependentUpon>WebForm_Egresos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_EntregaBodega.aspx.cs">
+      <DependentUpon>WebForm_EntregaBodega.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_EntregaBodega.aspx.designer.cs">
+      <DependentUpon>WebForm_EntregaBodega.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_FacturaVent.aspx.cs">
+      <DependentUpon>WebForm_FacturaVent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_FacturaVent.aspx.designer.cs">
+      <DependentUpon>WebForm_FacturaVent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Ingresos.aspx.cs">
+      <DependentUpon>WebForm_Ingresos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Ingresos.aspx.designer.cs">
+      <DependentUpon>WebForm_Ingresos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Kardex.aspx.cs">
+      <DependentUpon>WebForm_Kardex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Kardex.aspx.designer.cs">
+      <DependentUpon>WebForm_Kardex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_MarcaProducto.aspx.cs">
+      <DependentUpon>WebForm_MarcaProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_MarcaProducto.aspx.designer.cs">
+      <DependentUpon>WebForm_MarcaProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_MaterialProducto.aspx.cs">
+      <DependentUpon>WebForm_MaterialProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_MaterialProducto.aspx.designer.cs">
+      <DependentUpon>WebForm_MaterialProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_OrdenCompra.aspx.cs">
+      <DependentUpon>WebForm_OrdenCompra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_OrdenCompra.aspx.designer.cs">
+      <DependentUpon>WebForm_OrdenCompra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Perfil.aspx.cs">
+      <DependentUpon>WebForm_Perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Perfil.aspx.designer.cs">
+      <DependentUpon>WebForm_Perfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Proveedor.aspx.cs">
+      <DependentUpon>WebForm_Proveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Proveedor.aspx.designer.cs">
+      <DependentUpon>WebForm_Proveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_ReporteEFD.aspx.cs">
+      <DependentUpon>WebForm_ReporteEFD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_ReporteEFD.aspx.designer.cs">
+      <DependentUpon>WebForm_ReporteEFD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_TipoProducto.aspx.cs">
+      <DependentUpon>WebForm_TipoProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_TipoProducto.aspx.designer.cs">
+      <DependentUpon>WebForm_TipoProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_UsuarioPerfil.aspx.cs">
+      <DependentUpon>WebForm_UsuarioPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_UsuarioPerfil.aspx.designer.cs">
+      <DependentUpon>WebForm_UsuarioPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_CuentasPorPagar.aspx.cs">
+      <DependentUpon>WebForm_CuentasPorPagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_CuentasPorPagar.aspx.designer.cs">
+      <DependentUpon>WebForm_CuentasPorPagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Producto.aspx.cs">
+      <DependentUpon>WebForm_Producto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Producto.aspx.designer.cs">
+      <DependentUpon>WebForm_Producto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_Resultados.aspx.cs">
+      <DependentUpon>WebForm_Resultados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_Resultados.aspx.designer.cs">
+      <DependentUpon>WebForm_Resultados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_MovimientosInventario.aspx.cs">
+      <DependentUpon>WebForm_MovimientosInventario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_MovimientosInventario.aspx.designer.cs">
+      <DependentUpon>WebForm_MovimientosInventario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.Master.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.Master.designer.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sistema.Master.cs">
+      <DependentUpon>Sistema.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sistema.Master.designer.cs">
+      <DependentUpon>Sistema.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_ListaProporProvee.aspx.cs">
+      <DependentUpon>WebForm_ListaProporProvee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_ListaProporProvee.aspx.designer.cs">
+      <DependentUpon>WebForm_ListaProporProvee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_ModeloProducto.aspx.cs">
+      <DependentUpon>WebForm_ModeloProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_ModeloProducto.aspx.designer.cs">
+      <DependentUpon>WebForm_ModeloProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_ReporteOrdenFechIfecfin.aspx.cs">
+      <DependentUpon>WebForm_ReporteOrdenFechIfecfin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_ReporteOrdenFechIfecfin.aspx.designer.cs">
+      <DependentUpon>WebForm_ReporteOrdenFechIfecfin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_BuscaProductos.aspx.cs">
+      <DependentUpon>WebForm_BuscaProductos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_BuscaProductos.aspx.designer.cs">
+      <DependentUpon>WebForm_BuscaProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_ListaProductosPorModelo.aspx.cs">
+      <DependentUpon>WebForm_ListaProductosPorModelo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_ListaProductosPorModelo.aspx.designer.cs">
+      <DependentUpon>WebForm_ListaProductosPorModelo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm_ListaProductosPorTipo.aspx.cs">
+      <DependentUpon>WebForm_ListaProductosPorTipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm_ListaProductosPorTipo.aspx.designer.cs">
+      <DependentUpon>WebForm_ListaProductosPorTipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebInicioS.aspx.cs">
+      <DependentUpon>WebInicioS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebInicioS.aspx.designer.cs">
+      <DependentUpon>WebInicioS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebSistPrincipal.aspx.cs">
+      <DependentUpon>WebSistPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebSistPrincipal.aspx.designer.cs">
+      <DependentUpon>WebSistPrincipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControBuscarCargo.ascx.cs">
+      <DependentUpon>WebUserControBuscarCargo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControBuscarCargo.ascx.designer.cs">
+      <DependentUpon>WebUserControBuscarCargo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlAjustedeExistencia.ascx.cs">
+      <DependentUpon>WebUserControlAjustedeExistencia.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlAjustedeExistencia.ascx.designer.cs">
+      <DependentUpon>WebUserControlAjustedeExistencia.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlAsientoContable.ascx.cs">
+      <DependentUpon>WebUserControlAsientoContable.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlAsientoContable.ascx.designer.cs">
+      <DependentUpon>WebUserControlAsientoContable.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBie.ascx.cs">
+      <DependentUpon>WebUserControlBie.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBie.ascx.designer.cs">
+      <DependentUpon>WebUserControlBie.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBucarUsuarioPerfil.ascx.cs">
+      <DependentUpon>WebUserControlBucarUsuarioPerfil.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBucarUsuarioPerfil.ascx.designer.cs">
+      <DependentUpon>WebUserControlBucarUsuarioPerfil.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscadorPerfil.ascx.cs">
+      <DependentUpon>WebUserControlBuscadorPerfil.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscadorPerfil.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscadorPerfil.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscarCliente.ascx.cs">
+      <DependentUpon>WebUserControlBuscarCliente.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscarCliente.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscarCliente.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscarDepartamento.ascx.cs">
+      <DependentUpon>WebUserControlBuscarDepartamento.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscarDepartamento.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscarDepartamento.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscarFacturaCliente.ascx.cs">
+      <DependentUpon>WebUserControlBuscarFacturaCliente.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscarFacturaCliente.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscarFacturaCliente.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscarOrdenCompra.ascx.cs">
+      <DependentUpon>WebUserControlBuscarOrdenCompra.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscarOrdenCompra.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscarOrdenCompra.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlDepartamento.ascx.cs">
+      <DependentUpon>WebUserControlDepartamento.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlDepartamento.ascx.designer.cs">
+      <DependentUpon>WebUserControlDepartamento.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscarDescuento.ascx.cs">
+      <DependentUpon>WebUserControlBuscarDescuento.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscarDescuento.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscarDescuento.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscarImpuesto.ascx.cs">
+      <DependentUpon>WebUserControlBuscarImpuesto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscarImpuesto.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscarImpuesto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscarMaterial.ascx.cs">
+      <DependentUpon>WebUserControlBuscarMaterial.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscarMaterial.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscarMaterial.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscarModeloProducto.ascx.cs">
+      <DependentUpon>WebUserControlBuscarModeloProducto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscarModeloProducto.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscarModeloProducto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscarProveedor.ascx.cs">
+      <DependentUpon>WebUserControlBuscarProveedor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscarProveedor.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscarProveedor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscarTipoProducto.ascx.cs">
+      <DependentUpon>WebUserControlBuscarTipoProducto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscarTipoProducto.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscarTipoProducto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlCargo.ascx.cs">
+      <DependentUpon>WebUserControlCargo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlCargo.ascx.designer.cs">
+      <DependentUpon>WebUserControlCargo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlClien.ascx.cs">
+      <DependentUpon>WebUserControlClien.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlClien.ascx.designer.cs">
+      <DependentUpon>WebUserControlClien.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlCtasporCobrar.ascx.cs">
+      <DependentUpon>WebUserControlCtasporCobrar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlCtasporCobrar.ascx.designer.cs">
+      <DependentUpon>WebUserControlCtasporCobrar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlCuentasPorpagar.ascx.cs">
+      <DependentUpon>WebUserControlCuentasPorpagar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlCuentasPorpagar.ascx.designer.cs">
+      <DependentUpon>WebUserControlCuentasPorpagar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlDescuento.ascx.cs">
+      <DependentUpon>WebUserControlDescuento.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlDescuento.ascx.designer.cs">
+      <DependentUpon>WebUserControlDescuento.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlEgresos.ascx.cs">
+      <DependentUpon>WebUserControlEgresos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlEgresos.ascx.designer.cs">
+      <DependentUpon>WebUserControlEgresos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlEmpleado.ascx.cs">
+      <DependentUpon>WebUserControlEmpleado.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlEmpleado.ascx.designer.cs">
+      <DependentUpon>WebUserControlEmpleado.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlEntregaBodega.ascx.cs">
+      <DependentUpon>WebUserControlEntregaBodega.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlEntregaBodega.ascx.designer.cs">
+      <DependentUpon>WebUserControlEntregaBodega.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlFacturaCliente.ascx.cs">
+      <DependentUpon>WebUserControlFacturaCliente.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlFacturaCliente.ascx.designer.cs">
+      <DependentUpon>WebUserControlFacturaCliente.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlFacturaVent.ascx.cs">
+      <DependentUpon>WebUserControlFacturaVent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlFacturaVent.ascx.designer.cs">
+      <DependentUpon>WebUserControlFacturaVent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlImpuesto.ascx.cs">
+      <DependentUpon>WebUserControlImpuesto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlImpuesto.ascx.designer.cs">
+      <DependentUpon>WebUserControlImpuesto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlIngresos.ascx.cs">
+      <DependentUpon>WebUserControlIngresos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlIngresos.ascx.designer.cs">
+      <DependentUpon>WebUserControlIngresos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlKardex.ascx.cs">
+      <DependentUpon>WebUserControlKardex.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlKardex.ascx.designer.cs">
+      <DependentUpon>WebUserControlKardex.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlListaPorudtosporProveedo.ascx.cs">
+      <DependentUpon>WebUserControlListaPorudtosporProveedo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlListaPorudtosporProveedo.ascx.designer.cs">
+      <DependentUpon>WebUserControlListaPorudtosporProveedo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscarProd.ascx.cs">
+      <DependentUpon>WebUserControlBuscarProd.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscarProd.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscarProd.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlMarcaProducto.ascx.cs">
+      <DependentUpon>WebUserControlMarcaProducto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlMarcaProducto.ascx.designer.cs">
+      <DependentUpon>WebUserControlMarcaProducto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlMaterialProducto.ascx.cs">
+      <DependentUpon>WebUserControlMaterialProducto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlMaterialProducto.ascx.designer.cs">
+      <DependentUpon>WebUserControlMaterialProducto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlModeloProducto.ascx.cs">
+      <DependentUpon>WebUserControlModeloProducto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlModeloProducto.ascx.designer.cs">
+      <DependentUpon>WebUserControlModeloProducto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlOdenCompra.ascx.cs">
+      <DependentUpon>WebUserControlOdenCompra.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlOdenCompra.ascx.designer.cs">
+      <DependentUpon>WebUserControlOdenCompra.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlPerfil.ascx.cs">
+      <DependentUpon>WebUserControlPerfil.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlPerfil.ascx.designer.cs">
+      <DependentUpon>WebUserControlPerfil.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlUsuarioPerfil.ascx.cs">
+      <DependentUpon>WebUserControlUsuarioPerfil.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlUsuarioPerfil.ascx.designer.cs">
+      <DependentUpon>WebUserControlUsuarioPerfil.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlBuscarEmpleado.ascx.cs">
+      <DependentUpon>WebUserControlBuscarEmpleado.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlBuscarEmpleado.ascx.designer.cs">
+      <DependentUpon>WebUserControlBuscarEmpleado.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlProducto.ascx.cs">
+      <DependentUpon>WebUserControlProducto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlProducto.ascx.designer.cs">
+      <DependentUpon>WebUserControlProducto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlListaProductosPormodelo.ascx.cs">
+      <DependentUpon>WebUserControlListaProductosPormodelo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlListaProductosPormodelo.ascx.designer.cs">
+      <DependentUpon>WebUserControlListaProductosPormodelo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlProveedor.ascx.cs">
+      <DependentUpon>WebUserControlProveedor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlProveedor.ascx.designer.cs">
+      <DependentUpon>WebUserControlProveedor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlListaProductoportipo.ascx.cs">
+      <DependentUpon>WebUserControlListaProductoportipo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlListaProductoportipo.ascx.designer.cs">
+      <DependentUpon>WebUserControlListaProductoportipo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlResultados.ascx.cs">
+      <DependentUpon>WebUserControlResultados.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlResultados.ascx.designer.cs">
+      <DependentUpon>WebUserControlResultados.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlSumaFacturaFechaInicalFinal.ascx.cs">
+      <DependentUpon>WebUserControlSumaFacturaFechaInicalFinal.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlSumaFacturaFechaInicalFinal.ascx.designer.cs">
+      <DependentUpon>WebUserControlSumaFacturaFechaInicalFinal.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlMovimientosInventario.ascx.cs">
+      <DependentUpon>WebUserControlMovimientosInventario.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlMovimientosInventario.ascx.designer.cs">
+      <DependentUpon>WebUserControlMovimientosInventario.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControlTipoProducto.ascx.cs">
+      <DependentUpon>WebUserControlTipoProducto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControlTipoProducto.ascx.designer.cs">
+      <DependentUpon>WebUserControlTipoProducto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControl_BuscarMarcaProducto.ascx.cs">
+      <DependentUpon>WebUserControl_BuscarMarcaProducto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControl_BuscarMarcaProducto.ascx.designer.cs">
+      <DependentUpon>WebUserControl_BuscarMarcaProducto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControl_RepoteEmpleadoFacDet.ascx.cs">
+      <DependentUpon>WebUserControl_RepoteEmpleadoFacDet.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControl_RepoteEmpleadoFacDet.ascx.designer.cs">
+      <DependentUpon>WebUserControl_RepoteEmpleadoFacDet.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReportEFD.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReportEFD.Designer.cs">
+      <DependentUpon>XtraReportEFD.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Aqua\Web\dxpcFooterBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\Loading.gif" />
+    <Content Include="App_Themes\Aqua\Web\mBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\mGutterRightBorder.gif" />
+    <Content Include="App_Themes\Aqua\Web\mHorizontalPopOut.gif" />
+    <Content Include="App_Themes\Aqua\Web\mHorizontalPopOut.png" />
+    <Content Include="App_Themes\Aqua\Web\mHorizontalPopOutH.png" />
+    <Content Include="App_Themes\Aqua\Web\mItemBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\mItemHBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\mItemSBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\mSeparator.gif" />
+    <Content Include="App_Themes\Aqua\Web\mSubMenuItem.gif" />
+    <Content Include="App_Themes\Aqua\Web\mSubMenuItemChecked.gif" />
+    <Content Include="App_Themes\Aqua\Web\mVertBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\mVertHBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\mVerticalPopOut.gif" />
+    <Content Include="App_Themes\Aqua\Web\mVerticalPopOut.png" />
+    <Content Include="App_Themes\Aqua\Web\mVerticalSeparator.gif" />
+    <Content Include="App_Themes\Aqua\Web\mVertSBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\nbCollapse.png" />
+    <Content Include="App_Themes\Aqua\Web\nbExpand.png" />
+    <Content Include="App_Themes\Aqua\Web\nbGroupHeaderBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\nbLoading.gif" />
+    <Content Include="App_Themes\Aqua\Web\pAll.png" />
+    <Content Include="App_Themes\Aqua\Web\pAllDisabled.png" />
+    <Content Include="App_Themes\Aqua\Web\pcCloseButton.png" />
+    <Content Include="App_Themes\Aqua\Web\pcHeaderBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\pcModalBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\pcSizeGrip.png" />
+    <Content Include="App_Themes\Aqua\Web\pFirst.png" />
+    <Content Include="App_Themes\Aqua\Web\pFirstDisabled.png" />
+    <Content Include="App_Themes\Aqua\Web\pLast.png" />
+    <Content Include="App_Themes\Aqua\Web\pLastDisabled.png" />
+    <Content Include="App_Themes\Aqua\Web\pNext.png" />
+    <Content Include="App_Themes\Aqua\Web\pNextDisabled.png" />
+    <Content Include="App_Themes\Aqua\Web\pPrev.png" />
+    <Content Include="App_Themes\Aqua\Web\pPrevDisabled.png" />
+    <Content Include="App_Themes\Aqua\Web\rpBottomEdge.gif" />
+    <Content Include="App_Themes\Aqua\Web\rpBottomLeft.png" />
+    <Content Include="App_Themes\Aqua\Web\rpBottomRight.png" />
+    <Content Include="App_Themes\Aqua\Web\rpHeaderBackground.gif" />
+    <Content Include="App_Themes\Aqua\Web\rpLeftEdge.gif" />
+    <Content Include="App_Themes\Aqua\Web\rpNoHeaderTopEdge.gif" />
+    <Content Include="App_Themes\Aqua\Web\rpNoHeaderTopLeft.png" />
+    <Content Include="App_Themes\Aqua\Web\rpNoHeaderTopRight.png" />
+    <Content Include="App_Themes\Aqua\Web\rpRightEdge.gif" />
+    <Content Include="App_Themes\Aqua\Web\rpTopEdge.gif" />
+    <Content Include="App_Themes\Aqua\Web\rpTopLeft.png" />
+    <Content Include="App_Themes\Aqua\Web\rpTopRight.png" />
+    <Content Include="App_Themes\Aqua\Web\smLevelBullet.gif" />
+    <Content Include="App_Themes\Aqua\Web\styles.css" />
+    <Content Include="App_Themes\Aqua\Web\tcTabBottomBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\tcTabBottomHottrackedBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\tcTabLeftBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\tcTabLeftHottrackedBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\tcTabRightBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\tcTabRightHottrackedBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\tcTabTopBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\tcTabTopHottrackedBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\tiGoToTop.png" />
+    <Content Include="App_Themes\Aqua\Web\ucProgressBack.gif" />
+    <Content Include="App_Themes\Aqua\Web\ucProgressIndicatorBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonBackC_16.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonBackDis.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonBackDis_16.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonBackH_16.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonBack_16.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonCheckedBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonEditBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonEditBackC.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonEditBackH.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonEditButtonBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonHoverBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtButtonPressedBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarFNNextYear.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarFNPrevYear.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarFootBtn.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarFootBtnH.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarFootBtnP.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarHeader.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarNextMonth.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarNextMonthDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarNextYear.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarNextYearDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarPrevMonth.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarPrevMonthDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarPrevYear.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCalendarPrevYearDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCheckBoxOff.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCheckBoxOn.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtCheckBoxUndefined.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtDropDown.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtDropDownDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtEllipsis.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtEllipsisDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtError.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtProgressIndicatorBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtRadioButtonOff.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtRadioButtonOn.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinDecBtnBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditDecrementImage.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditDecrementImageDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditIncrementImage.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditIncrementImageDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditLargeDecImage.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditLargeDecImageDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditLargeIncImage.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinEditLargeIncImageDisabled.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinIncBtnBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinIncBtnHBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinIncBtnPBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinLargeIncBtnBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinLargeIncBtnHBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\edtSpinLargeIncBtnPBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\Error.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcadd.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcaddhot.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcgroupaddcondition.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcgroupaddgroup.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcgroupand.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcgroupnotand.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcgroupnotor.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcgroupor.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcgroupremove.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopany.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopbegin.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopbetween.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopblank.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopcontain.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopend.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopequal.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopgreater.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopgreaterorequal.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopless.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcoplessorequal.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcoplike.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopnotany.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopnotbetween.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopnotblank.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopnotcontain.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopnotequal.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcopnotlike.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcremove.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\fcremovehot.png" />
+    <Content Include="App_Themes\BlackGlass\Editors\lbHeaderBackground.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\Loading.gif" />
+    <Content Include="App_Themes\BlackGlass\Editors\styles.css" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvCollapsedButton.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvCollapsedButton.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvDetailCollapsedButton.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvDetailCollapsedButton.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvDetailExpandedButton.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvDetailExpandedButton.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvDragAndDropArrowDown.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvDragAndDropArrowUp.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvDragAndDropHideColumn.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvExpandedButton.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvExpandedButton.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvFilterRowButton.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvGroupPanelBackground.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvGroupPanelSelBackground.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvHeaderBackground.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvHeaderFilter.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvHeaderFilterActive.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvHeaderSortDown.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvHeaderSortUp.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvLoadingOnStatusBar.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\gvParentGroupRows.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\Loading.gif" />
+    <Content Include="App_Themes\BlackGlass\GridView\pAll.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\pAllDisabled.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\pFirst.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\pFirstDisabled.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\pLast.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\pLastDisabled.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\pNext.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\pNextDisabled.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\pPrev.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\pPrevDisabled.png" />
+    <Content Include="App_Themes\BlackGlass\GridView\styles.css" />
+    <Content Include="App_Themes\BlackGlass\GridView\WindowResizer.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\Loading.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\mHorizontalPopOut.png" />
+    <Content Include="App_Themes\BlackGlass\Web\mItemBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\mItemBackH.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\mItemBackLevel0.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\mItemBackS.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\mSubMenuItem.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\mSubMenuItemChecked.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\mVerticalItemBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\mVerticalPopOut.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\nbCollapse.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\nbExpand.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\nbItemBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\nbItemBackH.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\pAll.png" />
+    <Content Include="App_Themes\BlackGlass\Web\pAllDisabled.png" />
+    <Content Include="App_Themes\BlackGlass\Web\pcCloseButton.png" />
+    <Content Include="App_Themes\BlackGlass\Web\pcItemCloseButton.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\pcItemFooter.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\pcItemHeader.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\pcModalBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\pcSizeGrip.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\pcTabBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\pcTabBackH.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\pFirst.png" />
+    <Content Include="App_Themes\BlackGlass\Web\pFirstDisabled.png" />
+    <Content Include="App_Themes\BlackGlass\Web\pLast.png" />
+    <Content Include="App_Themes\BlackGlass\Web\pLastDisabled.png" />
+    <Content Include="App_Themes\BlackGlass\Web\pNext.png" />
+    <Content Include="App_Themes\BlackGlass\Web\pNextDisabled.png" />
+    <Content Include="App_Themes\BlackGlass\Web\pPrev.png" />
+    <Content Include="App_Themes\BlackGlass\Web\pPrevDisabled.png" />
+    <Content Include="App_Themes\BlackGlass\Web\rpBottomLeftCorner.png" />
+    <Content Include="App_Themes\BlackGlass\Web\rpBottomRightCorner.png" />
+    <Content Include="App_Themes\BlackGlass\Web\rpContentBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\rpContentBottomEdge.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\rpContentLeftEdge.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\rpContentRightEdge.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\rpHeaderBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\rpHeaderLeftEdge.png" />
+    <Content Include="App_Themes\BlackGlass\Web\rpHeaderRightEdge.png" />
+    <Content Include="App_Themes\BlackGlass\Web\rpNoHeaderTopLeftCorner.png" />
+    <Content Include="App_Themes\BlackGlass\Web\rpNoHeaderTopRightCorner.png" />
+    <Content Include="App_Themes\BlackGlass\Web\rpTopEdge.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\rpTopLeftCorner.png" />
+    <Content Include="App_Themes\BlackGlass\Web\rpTopRightCorner.png" />
+    <Content Include="App_Themes\BlackGlass\Web\smBullet.png" />
+    <Content Include="App_Themes\BlackGlass\Web\styles.css" />
+    <Content Include="App_Themes\BlackGlass\Web\tcTabBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\tcTabBackH.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\tiItemBack.gif" />
+    <Content Include="App_Themes\BlackGlass\Web\ucProgressIndicatorBack.gif" />
+    <Content Include="App_Themes\Blue\Web\dvItemBack.gif" />
+    <Content Include="App_Themes\Blue\Web\dvLastDisabled.png" />
+    <Content Include="App_Themes\Blue\Web\hlTail.gif" />
+    <Content Include="App_Themes\Blue\Web\Loading.gif" />
+    <Content Include="App_Themes\Blue\Web\mHorizontalPopOut.gif" />
+    <Content Include="App_Themes\Blue\Web\mItemBack.gif" />
+    <Content Include="App_Themes\Blue\Web\mItemHBack.gif" />
+    <Content Include="App_Themes\Blue\Web\mItemSBack.gif" />
+    <Content Include="App_Themes\Blue\Web\mLargeItemBack.gif" />
+    <Content Include="App_Themes\Blue\Web\mLargeItemHBack.gif" />
+    <Content Include="App_Themes\Blue\Web\mLargeItemSBack.gif" />
+    <Content Include="App_Themes\Blue\Web\mPopupSeparatorBack.gif" />
+    <Content Include="App_Themes\Blue\Web\mSeparatorBack.gif" />
+    <Content Include="App_Themes\Blue\Web\mSubMenuItem.gif" />
+    <Content Include="App_Themes\Blue\Web\mSubMenuItemChecked.gif" />
+    <Content Include="App_Themes\Blue\Web\mVerticalPopOut.gif" />
+    <Content Include="App_Themes\Blue\Web\nbBack.gif" />
+    <Content Include="App_Themes\Blue\Web\nbCollapse.gif" />
+    <Content Include="App_Themes\Blue\Web\nbExpand.gif" />
+    <Content Include="App_Themes\Blue\Web\nbHeaderBack.gif" />
+    <Content Include="App_Themes\Blue\Web\nbHeaderBackCollapsed.gif" />
+    <Content Include="App_Themes\Blue\Web\nbHeaderHBack.gif" />
+    <Content Include="App_Themes\Blue\Web\ncBackToTop.png" />
+    <Content Include="App_Themes\Blue\Web\ncTail.gif" />
+    <Content Include="App_Themes\Blue\Web\pAll.png" />
+    <Content Include="App_Themes\Blue\Web\pAllDisabled.png" />
+    <Content Include="App_Themes\Blue\Web\pcCloseButton.png" />
+    <Content Include="App_Themes\Blue\Web\pcHeaderBack.gif" />
+    <Content Include="App_Themes\Blue\Web\pcModalBack.gif" />
+    <Content Include="App_Themes\Blue\Web\pcSizeGrip.gif" />
+    <Content Include="App_Themes\Blue\Web\pFirst.png" />
+    <Content Include="App_Themes\Blue\Web\pFirstDisabled.png" />
+    <Content Include="App_Themes\Blue\Web\pLast.png" />
+    <Content Include="App_Themes\Blue\Web\pLastDisabled.png" />
+    <Content Include="App_Themes\Blue\Web\pNext.png" />
+    <Content Include="App_Themes\Blue\Web\pNextDisabled.png" />
+    <Content Include="App_Themes\Blue\Web\pPrev.png" />
+    <Content Include="App_Themes\Blue\Web\pPrevDisabled.png" />
+    <Content Include="App_Themes\Blue\Web\rpBottomLeftCorner.png" />
+    <Content Include="App_Themes\Blue\Web\rpBottomRightCorner.png" />
+    <Content Include="App_Themes\Blue\Web\rpHeaderBack.png" />
+    <Content Include="App_Themes\Blue\Web\rpHeaderEdge.png" />
+    <Content Include="App_Themes\Blue\Web\rpNoHeaderTopLeftCorner.png" />
+    <Content Include="App_Themes\Blue\Web\rpNoHeaderTopRightCorner.png" />
+    <Content Include="App_Themes\Blue\Web\rpTopLeftCorner.png" />
+    <Content Include="App_Themes\Blue\Web\rpTopRightCorner.png" />
+    <Content Include="App_Themes\Blue\Web\smBack.gif" />
+    <Content Include="App_Themes\Blue\Web\smFirstLevelBack.gif" />
+    <Content Include="App_Themes\Blue\Web\smSecondLevelBullet.gif" />
+    <Content Include="App_Themes\Blue\Web\styles.css" />
+    <Content Include="App_Themes\Blue\Web\tcHTabBack.gif" />
+    <Content Include="App_Themes\Blue\Web\tcTabABack.gif" />
+    <Content Include="App_Themes\Blue\Web\tcTabBack.gif" />
+    <Content Include="App_Themes\Blue\Web\tiBackToTop.png" />
+    <Content Include="App_Themes\Blue\Web\tiContentBottom.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtButtonBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtButtonBackDis.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtButtonBackHover.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtButtonBackPressed.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtCalendarFNNextYear.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtCalendarFNPrevYear.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtCalendarHeadBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtCalendarNextMonth.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtCalendarNextMonthDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtCalendarNextYear.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtCalendarNextYearDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtCalendarPrevMonth.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtCalendarPrevMonthDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtCalendarPrevYear.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtCalendarPrevYearDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtDropDown.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtDropDownDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtEllipsis.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtEllipsisDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtError.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinDecBtnBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinEditDecrementImage.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinEditDecrementImageDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinEditIncrementImage.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinEditIncrementImageDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinEditLargeDecImage.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinEditLargeDecImageDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinEditLargeIncImage.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinEditLargeIncImageDisabled.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinIncBtnBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinIncBtnHBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinIncBtnPBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinLargeIncBtnBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinLargeIncBtnHBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\edtSpinLargeIncBtnPBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcadd.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcaddhot.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcgroupaddcondition.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcgroupaddgroup.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcgroupand.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcgroupnotand.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcgroupnotor.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcgroupor.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcgroupremove.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopany.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopbegin.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopbetween.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopblank.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopcontain.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopend.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopequal.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopgreater.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopgreaterorequal.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopless.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcoplessorequal.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcoplike.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopnotany.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopnotbetween.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopnotblank.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopnotcontain.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopnotequal.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcopnotlike.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcremove.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\fcremovehot.png" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\lbHeaderBackground.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\Loading.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Editors\styles.css" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvCollapsedButton.png" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvDragAndDropArrowDown.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvDragAndDropArrowUp.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvDragAndDropHideColumn.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvExpandedButton.png" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvFilterRowButton.png" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvFocusedBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvGradient.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvHeaderFilter.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvHeaderFilterActive.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvHeaderSortDown.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvHeaderSortUp.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvLoadingOnStatusBar.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvParentGroupRows.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\gvTitleBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\Loading.gif" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\styles.css" />
+    <Content Include="App_Themes\Office2003 Olive\GridView\WindowResizer.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\hlTail.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\Loading.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\mHorizontalPopOut.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\mItemBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\mItemHBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\mItemSBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\mItemSeparatorBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\mItemVerticalSeparatorBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\mPopupBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\mPopupHBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\mSubMenuItem.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\mSubMenuItemChecked.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\mVerticalPopOut.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\nbBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\nbCollapse.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\nbExpand.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\nbGroupBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\nbGroupHeaderBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\nbHBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\nbSBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pAll.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pAllDisabled.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pcCloseButton.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pcHeaderBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pcModalBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pcSizeGrip.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pFirst.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pFirstDisabled.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pLast.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pLastDisabled.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pNext.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pNextDisabled.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pPrev.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\pPrevDisabled.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\rpBottomLeftCorner.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\rpBottomRightCorner.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\rpHeader.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\rpNoHeaderTopLeftCorner.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\rpNoHeaderTopRightCorner.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\rpTopEdge.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\rpTopLeftCorner.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\rpTopRightCorner.png" />
+    <Content Include="App_Themes\Office2003 Olive\Web\smBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\smFirstLevelBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\smSecondLevelBullet.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\styles.css" />
+    <Content Include="App_Themes\Office2003 Olive\Web\tcBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\tcTabABack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\tcTabAHBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\tcTabBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\tcTabHBack.gif" />
+    <Content Include="App_Themes\Office2003 Olive\Web\tiBackToTop.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtButtonBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtButtonBackHover.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtButtonEditButtonBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtButtonEditButtonBackDis.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarButtonBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarButtonHBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarButtonPBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarFNNextYear.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarFNPrevYear.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarFooterBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarHeaderBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarNextMonth.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarNextMonthDisabled.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarNextYear.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarNextYearDisabled.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarPrevMonth.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarPrevMonthDisabled.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarPrevYear.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtCalendarPrevYearDisabled.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtDropDown.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtDropDownButtonHoverBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtDropDownButtonPressedBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtDropDownDisabled.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtEllipsis.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtEllipsisDisabled.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtError.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtProgressIndicatorBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtProgressPositionBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinDecBtnBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinDecBtnHBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinDecBtnPBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinEditDecrementImage.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinEditDecrementImageDisabled.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinEditIncrementImage.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinEditIncrementImageDisabled.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinEditLargeDecImage.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinEditLargeDecImageDisabled.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinEditLargeIncImage.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinEditLargeIncImageDisabled.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinIncBtnBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinIncBtnHBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinIncBtnPBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinLargeIncBtnBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinLargeIncBtnHBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\edtSpinLargeIncBtnPBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcadd.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcaddhot.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcgroupaddcondition.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcgroupaddgroup.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcgroupand.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcgroupnotand.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcgroupnotor.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcgroupor.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcgroupremove.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopany.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopbegin.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopbetween.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopblank.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopcontain.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopend.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopequal.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopgreater.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopgreaterorequal.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopless.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcoplessorequal.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcoplike.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopnotany.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopnotbetween.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopnotblank.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopnotcontain.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopnotequal.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcopnotlike.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcremove.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\fcremovehot.png" />
+    <Content Include="App_Themes\Plastic Blue\Editors\lbHeaderBackground.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\Loading.gif" />
+    <Content Include="App_Themes\Plastic Blue\Editors\styles.css" />
+    <Content Include="App_Themes\Plastic Blue\Web\dvAll.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\dvAllDis.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\dvFirst.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\dvFirstDis.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\dvLast.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\dvLastDis.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\dvLoading.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\dvNext.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\dvNextDis.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\dvPagerBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\dvPrev.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\dvPrevDis.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\mHorizontalPopOut.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\mItemBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\mItemHBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\mItemSBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\mSeparator.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\mSeparatorHor.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\mSubMenuItem.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\mSubMenuItemChecked.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\mVerticalPopOut.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\nbCollapse.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\nbExpand.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\nbHeaderBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\nbItemBullet.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\nbLoading.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\ncLoading.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\pcCloseButton.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\pcFooterBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\pcHeaderBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\pcModalBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\pcSizeGrip.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpBottomEdge.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpBottomLeftCorner.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpBottomRightCorner.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpHeaderLeftEdge.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpHeaderRightEdge.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpHeaderSeparator.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpHeaderTopEdge.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpLeftEdge.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpNoHeaderTopEdge.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpNoHeaderTopLeftCorner.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpNoHeaderTopRightCorner.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpRightEdge.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpTopLeftCorner.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\rpTopRightCorner.png" />
+    <Content Include="App_Themes\Plastic Blue\Web\smLevel0Back.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\smSecondLevelBullet.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\smThirdLevelBullet.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\styles.css" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcContentBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcContentBackHor.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcLoading.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcTabABack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcTabBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcTabBottomABack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcTabBottomBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcTabBottomHBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcTabHBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcTabLeftABack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcTabLeftBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcTabLeftHBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcTabRightABack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcTabRightBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tcTabRightHBack.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tiGotToBackP.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tiGroupHeader.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\tiLoading.gif" />
+    <Content Include="App_Themes\Plastic Blue\Web\ucProgressIndicatorBack.gif" />
+    <Content Include="images\bienvegif.gif" />
+    <Content Include="images\bienve.jpg" />
+    <Content Include="images\ASPxRoundPanel\606710530\BottomLeftCorner.png" />
+    <Content Include="images\ASPxRoundPanel\606710530\BottomRightCorner.png" />
+    <Content Include="images\ASPxRoundPanel\606710530\HeaderContent.png" />
+    <Content Include="images\ASPxRoundPanel\606710530\HeaderLeftEdge.png" />
+    <Content Include="images\ASPxRoundPanel\606710530\HeaderRightEdge.png" />
+    <Content Include="images\ASPxRoundPanel\606710530\NoHeaderTopLeftCorner.png" />
+    <Content Include="images\ASPxRoundPanel\606710530\NoHeaderTopRightCorner.png" />
+    <Content Include="images\ASPxRoundPanel\606710530\TopLeftCorner.png" />
+    <Content Include="images\ASPxRoundPanel\606710530\TopRightCorner.png" />
+    <Content Include="images\cargo1.jpg" />
+    <Content Include="images\cargo2.jpg" />
+    <Content Include="images\carrito.JPG" />
+    <Content Include="images\contabilidad.bmp" />
+    <Content Include="images\factura1.jpg" />
+    <Content Include="images\factura2.jpg" />
+    <Content Include="images\impuesto1.jpg" />
+    <Content Include="images\impuesto2.jpg" />
+    <Content Include="images\inventario.bmp" />
+    <Content Include="images\material1.jpg" />
+    <Content Include="images\material2.jpg" />
+    <Content Include="images\perfil1.jpg" />
+    <Content Include="images\perfil2.jpg" />
+    <Content Include="WebForm_AjusteExistencia.aspx" />
+    <Content Include="images\1baner1.gif" />
+    <Content Include="images\add-32.png" />
+    <Content Include="images\add.ico" />
+    <Content Include="images\background_top.gif" />
+    <Content Include="images\Bienbenida.JPG" />
+    <Content Include="images\bienvenido1.JPG" />
+    <Content Include="images\borrar.jpeg" />
+    <Content Include="images\bullet.gif" />
+    <Content Include="images\buscar-32.png" />
+    <Content Include="images\button_cancel-32.png" />
+    <Content Include="images\cabecera.jpg" />
+    <Content Include="images\cabecera1.jpeg" />
+    <Content Include="images\cabecera2.jpeg" />
+    <Content Include="images\cabecera_empresa.jpg" />
+    <Content Include="images\cabecera_empresa1.JPG" />
+    <Content Include="images\cart.gif" />
+    <Content Include="images\cart_bot.gif" />
+    <Content Include="images\cart_top.gif" />
+    <Content Include="images\cliente.jpeg" />
+    <Content Include="images\con2.jpeg" />
+    <Content Include="images\con3.jpeg" />
+    <Content Include="images\consultas_38.jpg" />
+    <Content Include="images\consultores.JPG" />
+    <Content Include="images\Conta.jpeg" />
+    <Content Include="images\content_header_bg.gif" />
+    <Content Include="images\delete.ico" />
+    <Content Include="images\dentalgeneral.gif" />
+    <Content Include="images\detec.jpeg" />
+    <Content Include="images\detec1.jpeg" />
+    <Content Include="images\diente.jpeg" />
+    <Content Include="images\Document_Edit_48.png" />
+    <Content Include="images\Document_Folder_black_48.png" />
+    <Content Include="images\Document_Folder_blue_48.png" />
+    <Content Include="images\Eliminar.ico" />
+    <Content Include="images\emp.jpeg" />
+    <Content Include="images\emple.jpeg" />
+    <Content Include="images\emple1.jpeg" />
+    <Content Include="images\empresa.jpeg" />
+    <Content Include="images\familia.jpeg" />
+    <Content Include="images\finanzas.jpg" />
+    <Content Include="images\foot_1.jpg" />
+    <Content Include="images\foot_3.jpg" />
+    <Content Include="images\gallery_thumbnail_1.gif" />
+    <Content Include="images\header.jpg" />
+    <Content Include="images\images.jpeg" />
+    <Content Include="images\images1.jpeg" />
+    <Content Include="images\iniciar_fondo.jpeg" />
+    <Content Include="images\libros.jpeg" />
+    <Content Include="images\modificar.bmp" />
+    <Content Include="images\modificar.ico" />
+    <Content Include="images\modificar.JPG" />
+    <Content Include="images\odon.jpeg" />
+    <Content Include="images\personal-128.png" />
+    <Content Include="images\personal.jpeg" />
+    <Content Include="images\person_bg.jpg" />
+    <Content Include="images\pic_1.jpg" />
+    <Content Include="images\pic_2.jpg" />
+    <Content Include="images\pic_3.jpg" />
+    <Content Include="images\pic_4.jpg" />
+    <Content Include="images\pic_5.jpg" />
+    <Content Include="images\pic_6.jpg" />
+    <Content Include="images\pic_7.jpg" />
+    <Content Include="images\pic_8.jpg" />
+    <Content Include="images\pic_9.jpg" />
+    <Content Include="images\prod.jpeg" />
+    <Content Include="images\prod1.jpeg" />
+    <Content Include="images\proveedor.jpeg" />
+    <Content Include="images\proveedor2.jpeg" />
+    <Content Include="images\Saveas.ico" />
+    <Content Include="images\Saveas.JPG" />
+    <Content Include="images\seg2.gif" />
+    <Content Include="images\sistemac1.jpg" />
+    <Content Include="images\stock_contact-list.png" />
+    <Content Include="images\Symbol_-_Check_48.png" />
+    <Content Include="images\User-128x128[1].PNG" />
+    <Content Include="images\window_new-32.png" />
+    <Content Include="Principal.Master" />
+    <Content Include="Sistema.Master" />
+    <Content Include="WebForm_bienve.aspx" />
+    <Content Include="WebForm_BuscarCargo.aspx" />
+    <Content Include="WebForm_BuscarDepartamento.aspx" />
+    <Content Include="WebForm_BuscarDescuento.aspx" />
+    <Content Include="WebForm_BuscarFacturaCliente.aspx" />
+    <Content Include="WebForm_BuscarImpuesto.aspx" />
+    <Content Include="WebForm_BuscarOrdenCompra.aspx" />
+    <Content Include="WebForm_BuscarPerfil.aspx" />
+    <Content Include="WebForm_BuscarUsuarioPerfil.aspx" />
+    <Content Include="WebForm_Cargo.aspx" />
+    <Content Include="WebForm_Cliente.aspx" />
+    <Content Include="WebForm_Departamento.aspx" />
+    <Content Include="WebForm_Descuento.aspx" />
+    <Content Include="WebForm_Empleado.aspx" />
+    <Content Include="WebForm_FacturaCliente.aspx" />
+    <Content Include="WebForm_Impuesto.aspx" />
+    <Content Include="WebForm_BuscarMarcaProducto.aspx" />
+    <Content Include="WebForm_BuscarMaterialProducto.aspx" />
+    <Content Include="WebForm_BuscarModeloProducto.aspx" />
+    <Content Include="WebForm_BuscarProveedor.aspx" />
+    <Content Include="WebForm_BuscarTipoProducto.aspx" />
+    <Content Include="WebForm_ListaProporProvee.aspx" />
+    <Content Include="WebForm_MarcaProducto.aspx" />
+    <Content Include="WebForm_MaterialProducto.aspx" />
+    <Content Include="WebForm_ModeloProducto.aspx" />
+    <Content Include="WebForm_OrdenCompra.aspx" />
+    <Content Include="WebForm_Perfil.aspx" />
+    <Content Include="WebForm_Proveedor.aspx" />
+    <Content Include="WebForm_ReporteEFD.aspx" />
+    <Content Include="WebForm_ReporteOrdenFechIfecfin.aspx" />
+    <Content Include="WebForm_BuscaProductos.aspx" />
+    <Content Include="WebForm_ListaProductosPorModelo.aspx" />
+    <Content Include="WebForm_ListaProductosPorTipo.aspx" />
+    <Content Include="WebForm_TipoProducto.aspx" />
+    <Content Include="WebUserControBuscarCargo.ascx" />
+    <Content Include="WebUserControlAjustedeExistencia.ascx" />
+    <Content Include="WebUserControlAsientoContable.ascx" />
+    <Content Include="WebUserControlBie.ascx" />
+    <Content Include="WebUserControlBucarUsuarioPerfil.ascx" />
+    <Content Include="WebUserControlBuscadorPerfil.ascx" />
+    <Content Include="WebUserControlBuscarCliente.ascx" />
+    <Content Include="WebUserControlBuscarDepartamento.ascx" />
+    <Content Include="WebUserControlBuscarFacturaCliente.ascx" />
+    <Content Include="WebUserControlBuscarOrdenCompra.ascx" />
+    <Content Include="WebUserControlDepartamento.ascx" />
+    <Content Include="WebUserControlBuscarDescuento.ascx" />
+    <Content Include="WebUserControlBuscarImpuesto.ascx" />
+    <Content Include="WebUserControlBuscarMaterial.ascx" />
+    <Content Include="WebUserControlBuscarModeloProducto.ascx" />
+    <Content Include="WebUserControlBuscarProveedor.ascx" />
+    <Content Include="WebUserControlBuscarTipoProducto.ascx" />
+    <Content Include="WebUserControlCargo.ascx" />
+    <Content Include="WebUserControlClien.ascx" />
+    <Content Include="WebUserControlCtasporCobrar.ascx" />
+    <Content Include="WebUserControlCuentasPorpagar.ascx" />
+    <Content Include="WebUserControlDescuento.ascx" />
+    <Content Include="WebUserControlEgresos.ascx" />
+    <Content Include="WebUserControlEmpleado.ascx" />
+    <Content Include="WebUserControlEntregaBodega.ascx" />
+    <Content Include="WebUserControlFacturaCliente.ascx" />
+    <Content Include="WebUserControlFacturaVent.ascx" />
+    <Content Include="WebUserControlImpuesto.ascx" />
+    <Content Include="WebUserControlIngresos.ascx" />
+    <Content Include="WebUserControlKardex.ascx" />
+    <Content Include="WebUserControlListaPorudtosporProveedo.ascx" />
+    <Content Include="WebUserControlBuscarProd.ascx" />
+    <Content Include="WebUserControlMarcaProducto.ascx" />
+    <Content Include="WebUserControlMaterialProducto.ascx" />
+    <Content Include="WebUserControlModeloProducto.ascx" />
+    <Content Include="WebUserControlOdenCompra.ascx" />
+    <Content Include="WebUserControlPerfil.ascx" />
+    <Content Include="WebUserControlUsuarioPerfil.ascx" />
+    <Content Include="WebUserControlProducto.ascx" />
+    <Content Include="WebUserControlListaProductosPormodelo.ascx" />
+    <Content Include="WebUserControlProveedor.ascx" />
+    <Content Include="WebUserControlListaProductoportipo.ascx" />
+    <Content Include="WebUserControlResultados.ascx" />
+    <Content Include="WebUserControlSumaFacturaFechaInicalFinal.ascx" />
+    <Content Include="WebUserControlMovimientosInventario.ascx" />
+    <Content Include="WebUserControlTipoProducto.ascx" />
+    <Content Include="WebUserControl_BuscarMarcaProducto.ascx" />
+    <Content Include="WebUserControl_RepoteEmpleadoFacDet.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Lista Productos por Proveedor.rdlc" />
+    <EmbeddedResource Include="Lista Productos por tipo.rdlc" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Report lista productos modelo.rdlc" />
+    <EmbeddedResource Include="XtraReportEFD.resx">
+      <DependentUpon>XtraReportEFD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseAldental\BaseAldental.csproj">
+      <Project>{3E5BC593-0755-4149-AFDA-BE03CC799E61}</Project>
+      <Name>BaseAldental</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClasesAldental\ClasesAldental.csproj">
+      <Project>{E66F5BB5-BE54-467C-80C9-091335C7EC7C}</Project>
+      <Name>ClasesAldental</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Themes\Aqua\Web\Thumbs.db" />
+    <None Include="basealdentalDataSet.xsc">
+      <DependentUpon>basealdentalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="basealdentalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>basealdentalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="basealdentalDataSet.xss">
+      <DependentUpon>basealdentalDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1402</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

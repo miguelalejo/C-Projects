@@ -1,0 +1,95 @@
+C:\Documents and Settings\XPproyecto\Mis documentos\Visual Studio 2008\Projects\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Documents and Settings\XPproyecto\Mis documentos\Visual Studio 2008\Projects\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Documents and Settings\XPproyecto\Mis documentos\Visual Studio 2008\Projects\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Documents and Settings\XPproyecto\Mis documentos\Visual Studio 2008\Projects\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Documents and Settings\XPproyecto\Mis documentos\Visual Studio 2008\Projects\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\XPproyecto\Mis documentos\Visual Studio 2008\Projects\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Documents and Settings\XPproyecto\Mis documentos\Visual Studio 2008\Projects\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll.config
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll.config
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll.config
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll.config
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll.config
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll.config
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll.config
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll.config
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll.config
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll.config
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll.config
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.AccesoDatos\obj\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb

@@ -1,0 +1,311 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Windows.Forms;
+using Proyecto.Protocolos.Chat.Entidades;
+using System.Net;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties;
+using System.Threading;
+using System.Net.NetworkInformation;
+using Microsoft.Win32;
+using System.IO;
+using System.Management;
+namespace Proyecto.Protocolos.Chat.UI.WinFormCliente
+{
+    public partial class FormLogin : Form
+    {
+        public FormLogin()
+        {
+            InitializeComponent();
+        }
+
+        ProtocoloCliente pcliente = new ProtocoloCliente();
+        int numerointentos=0;
+        
+        equipo_has_mensaje unequipomensaje;
+        bool exiteequipo=false;
+        IPAddress ipAddress;
+        IPAddress ipAddressServidor;
+        equipo equipo;
+        public equipo Equipo
+        {
+            get {
+                return this.equipo;
+            }
+            set {
+                this.equipo = value;
+            }
+        }
+        grupo gruposequipo;
+        public grupo Gruposequipo
+        {
+            get
+            {
+                return this.gruposequipo;
+            }
+            set
+            {
+                this.gruposequipo = value;
+            }
+        }
+        Thread Escuchasala;  
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+            IPHostEntry entry = Dns.GetHostByName(Dns.GetHostName().ToString());
+            ipAddress = entry.AddressList[0];
+            ipAddressServidor = Dns.GetHostAddresses(Properties.Settings.Default.IpServidor)[0];
+            Escuchasala = new Thread(this.Escuchar);
+            Escuchasala.Start();
+            
+
+        }
+        private void buttonIngresar_Click(object sender, EventArgs e)
+        {
+            this.EnviarMensajeValidacion();
+            //Ocultamos el formulario
+            this.Visible = false;
+            //Hacemos visible el icono de la bandeja del sistema
+            notifyIcon1.Visible = true;
+            notifyIcon1.BalloonTipIcon = ToolTipIcon.Info;
+            notifyIcon1.BalloonTipTitle = "Administración SNMP";
+            notifyIcon1.BalloonTipText = "Has minimizado la administración SNMP";
+            notifyIcon1.ShowBalloonTip(1000);
+            if (this.frmcli.Equipo != null)
+            {
+                this.frmcli.EnvioMensajeQuitarUsuarioOtro();
+            }
+            
+            
+
+
+            
+        }
+        public void EnviarMensajeValidacion()
+        {
+            try
+            {
+
+                equipo = this.leerventana();
+                sala unsala = new sala(int.Parse(Properties.Settings.Default.PuertoIngreso));
+                equipo.sala = unsala;
+                mensaje mensaje = new mensaje(1, ipAddress.ToString(), Properties.Settings.Default.EnviarTodos, DateTime.Now, DateTime.Now.TimeOfDay, Properties.Settings.Default.IMensajeConectar, Properties.Settings.Default.IMesajeValidacion);
+                unequipomensaje = new equipo_has_mensaje(mensaje, equipo);
+                bool enviado = pcliente.EnviarMensaje(unequipomensaje, ipAddressServidor.ToString());
+                if (enviado)
+                {
+                    this.Visible = false;
+
+                    if (this.Equipo != null)
+                    {
+                       
+
+
+                    }
+                }
+                else
+                {
+
+                    MessageBox.Show(Settings.Default.MensajeNoenviado, Settings.Default.TInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception error)
+            {
+                if (error.Message.Contains("No se puede establecer"))
+                {
+                    this.equipo = null;
+                    MessageBox.Show(Settings.Default.SinServidor, Settings.Default.TInfo, MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+                MessageBox.Show(error.Message);
+            }  
+        }
+      
+        public equipo leerventana()
+        {
+            if (this.textBoxContraseña.Text != "" && this.textBoxUsuario.Text != "")
+            {
+                return new equipo(this.textBoxUsuario.Text, this.textBoxContraseña.Text);
+            }
+            else
+                throw new Exception(Settings.Default.ParametroInvalido);
+        }
+        FormCliente frmcli=new FormCliente();
+        private void timerEscuchando_Tick(object sender, EventArgs e)
+        {
+
+            if (this.cerrar)
+            {
+                if (frmcli != null)
+                {
+                    frmcli.Close();
+                    frmcli = new FormCliente();
+                }
+                this.equipo.pos = this.pos;
+                this.equipo.IpCliente = this.ipAddress.ToString();
+                this.equipo.Mac = GetMacAddressFromIPAddress.GetMacFromIP(this.ipAddress).ToString();
+                
+
+
+               
+                this.equipo = unequipomensaje.equipo;
+                this.Equipo.Activo = true;
+                frmcli.Equipo = this.Equipo;
+                frmcli.Show();
+                this.cerrar = false;
+                
+            }
+            
+        }
+        public string GrupoDeTrabajo()
+        {
+            
+            
+            using (ManagementObjectSearcher searcher = new ManagementObjectSearcher("Win32_ComputerSystem")) {
+            using (ManagementObjectCollection MyManagementObjectCollection = MyManagementObjectSearcher.Get()) {
+                foreach (ManagementObject MyManagementObject in MyManagementObjectCollection) {
+                    foreach (ManagementObject mo in searcher.Get())
+            {
+                if ((bool)mo["partofdomain"] != true)
+                    return mo["workgroup"];
+                else
+                    return mo["workgroup"];
+            }
+
+
+        }
+        bool cerrar = false;
+        public void Escuchar()
+        {
+            
+            while (true)
+            {
+                
+                if (this.pcliente.Stream != null)
+                {
+                    if (this.pcliente.Stream.CanRead && this.pcliente.Stream.DataAvailable)
+                    {
+                        IFormatter formatter = new BinaryFormatter();
+                        //equipo sala desde el servidor
+                        unequipomensaje = (equipo_has_mensaje)formatter.Deserialize(this.pcliente.Stream);
+                        byte[] buff = new byte[unequipomensaje.mensaje.valor.Length];	//Declaro un arreglo de bytes
+                        string str = "";					//Declaro una cadena
+                        try
+                        {
+                           
+                            this.pcliente.Stream.Read(buff, 0, buff.Length);	//Leo los bytes del Stream
+                            str = System.Text.Encoding.ASCII.GetString(buff);//Convierto los bytes a Cadena
+                            if (unequipomensaje.mensaje.metodo == Properties.Settings.Default.IMesajeValidacion)
+                            {
+                                if (bool.Parse(unequipomensaje.mensaje.valor))
+                                {
+                                    this.equipo = unequipomensaje.equipo;
+                                    this.gruposequipo = unequipomensaje.equipo.sala.grupo;
+                                    this.cerrar = true;
+                                }
+                                else
+                                {
+                                    if (this.numerointentos > 1)
+                                    {
+                                        this.equipo = null;
+                                        this.ShowALgo();
+                                        this.cerrar = true;
+                                    }
+                                    else
+                                    {
+                                        this.equipo = null;  
+                                        this.numerointentos++;
+                                        this.ShowALgo2();
+
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                if (!bool.Parse(unequipomensaje.mensaje.valor))
+                                {
+                                    string cad = String.Format(Settings.Default.UsuarioActivo, this.equipo.NombreNick);
+                                    MessageBox.Show(cad, Settings.Default.TInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                }
+                            }
+
+                        }
+                        catch (System.Exception X)
+                        {
+                            MessageBox.Show(Settings.Default.MensajeNoenviado + X.Message, Settings.Default.TInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+
+                    }
+                }
+            }
+        }
+        public void ShowALgo()
+        {
+            MessageBox.Show(Settings.Default.InvalidUser);
+        }
+        public void ShowALgo2()
+        {
+            string cad = String.Format(Settings.Default.InvalidUser + " tiene {1} intentos", this.textBoxUsuario.Text.ToUpper(), 3 - this.numerointentos);
+            MessageBox.Show(cad, Settings.Default.TInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        
+
+
+
+
+
+        private void FormLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+            this.Escuchasala.Abort();
+            this.pcliente.Cerrar();
+            this.timerEscuchando.Stop();
+           
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.Show();
+            this.WindowState = FormWindowState.Normal;
+            //Ocultamos el icono de la bandeja de sistema
+            notifyIcon1.Visible = false;
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void estadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmcli.Visible = true;
+        }
+
+        private void opcionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Visible = true;
+        }
+
+        private void pictureBox26_Click(object sender, EventArgs e)
+        {
+
+        }
+        Posicion pos;
+        private void buttonSeleccion_Click(object sender, EventArgs e)
+        {
+            FormSeccionPosicionCliente frpos = new FormSeccionPosicionCliente();
+            frpos.ShowDialog();
+            pos=frpos.pos;
+        }
+
+        private void buttonPropiedades_Click(object sender, EventArgs e)
+        {
+            FormPropiedades frmpro = new FormPropiedades();
+            frmpro.ShowDialog();
+
+        }
+    }
+}

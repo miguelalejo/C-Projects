@@ -1,0 +1,230 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using Proyecto.Protocolos.Chat.Entidades;
+using System.Threading;
+using System.Net;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties;
+using System.Net.NetworkInformation;
+using System.Configuration;
+
+namespace Proyecto.Protocolos.Chat.UI.WinFormCliente
+{
+    public partial class FormCliente : Form
+    {
+        public FormCliente()
+        {
+            InitializeComponent();
+        }
+        equipo equipo;
+        public equipo Equipo
+        {
+            get {
+                return this.equipo;
+
+            }
+            set {
+                this.equipo = value;
+            }
+        }
+        public equipo_has_mensaje unequipomensaje;
+        ProtocoloCliente pcliente = new ProtocoloCliente();
+       
+        //IPAddress ipAddress;
+        IPAddress ipAddressServidor;
+        private void FormCliente_Load(object sender, EventArgs e)
+        {
+            pcliente = new ProtocoloCliente();
+            //IPHostEntry entry = Dns.GetHostByName(Dns.GetHostName().ToString());
+            //ipAddress = entry.AddressList[0];
+            //Cargar del Archivo de configuación
+            ipAddressServidor = Dns.GetHostAddresses(ConfigurationManager.AppSettings.Get("IpServidor"))[0];
+            this.unequipomensaje = new equipo_has_mensaje();
+            this.unequipomensaje.equipo = this.equipo;
+            this.EnvioMensajeAgregarUsuarioOtro();
+            this.labelName.Text = "CONECTADO";
+            
+
+        }
+        
+        public void EnviaInfo()
+        {
+            try
+            {
+                
+                   
+                    //IPHostEntry entry = Dns.GetHostByName(Dns.GetHostName().ToString());
+                    //ipAddress = entry.AddressList[0];
+                    mensaje mensaje = new mensaje(1, this.equipo.IpCliente.ToString(), ConfigurationManager.AppSettings.Get("EnviarTodos"), DateTime.Now, DateTime.Now.TimeOfDay, "grupo", "seleccion");
+                    unequipomensaje = new  equipo_has_mensaje(mensaje, equipo);
+                    unequipomensaje.equipo.sala.puerto = int.Parse(ConfigurationManager.AppSettings.Get("PuertoConectar"));
+                    bool enviado = pcliente.EnviarMensaje(unequipomensaje, ipAddressServidor.ToString());
+                    if (enviado)
+                    {
+
+                    }
+                    else
+                    {
+
+                        MessageBox.Show(ConfigurationManager.AppSettings.Get("MensajeNoenviado"));
+                    }
+                
+            }
+            catch (Exception error)
+            {
+                if (error.Message.Contains("No se puede establecer"))
+                {
+                    MessageBox.Show(ConfigurationManager.AppSettings.Get("SinServidor"));
+                    this.Close();
+
+                }
+            }
+        }
+       
+        private void timerEscuchando_Tick(object sender, EventArgs e)
+        {
+            if (this.pcliente.Stream != null)
+            {
+                if (this.pcliente.Stream.CanRead && this.pcliente.Stream.DataAvailable)
+                {
+                    IFormatter formatter = new BinaryFormatter();
+                    //equipo sala desde el servidor
+                    unequipomensaje = (equipo_has_mensaje)formatter.Deserialize(this.pcliente.Stream);
+                    byte[] buff = new byte[unequipomensaje.mensaje.valor.Length];	//Declaro un arreglo de bytes
+                    string str = "";					//Declaro una cadena
+                    try
+                    {
+
+                       
+                        this.pcliente.Stream.Read(buff, 0, buff.Length);	//Leo los bytes del Stream
+                        str = System.Text.Encoding.ASCII.GetString(buff);//Convierto los bytes a Cadena
+                        unequipomensaje.mensaje.cabecera = "NADA";
+                        if (unequipomensaje.mensaje.valor.Contains( "Reiniciar"))
+                        {
+                            Class_Apagado.Shutdown();
+
+                        }
+                        if (unequipomensaje.mensaje.valor.Contains( "Cancelar"))
+                        {
+                            Class_Apagado.CancelShutdown();
+                        }
+                        if (unequipomensaje.mensaje.valor.Equals("Escanear"))
+                        {
+                            AntivirusScan.Escanear();
+                        }
+                        if (unequipomensaje.mensaje.valor.Equals("Cancelar Escanear"))
+                        {
+                            AntivirusScan.CancelarEscanear();
+
+                        }
+                        if (unequipomensaje.mensaje.valor.Equals("Apagar Monitor"))
+                        {
+                            Class_Apagado.ApagarMonitor();
+
+                        }
+                        if (unequipomensaje.mensaje.valor.Equals("Encender Monitor"))
+                        {
+                            Class_Apagado.EncenderMonitor();
+
+                        }
+
+                    }
+                    catch (System.Exception X)
+                    {
+                        MessageBox.Show(ConfigurationManager.AppSettings.Get("MensajeNoenviado") + X.Message, ConfigurationManager.AppSettings.Get("TInfo"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
+                }
+            }
+        }
+
+        private void FormCliente_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //this.EnvioMensajeQuitarUsuarioOtro();
+        }
+        bool senviocierre = false;
+        public void EnvioMensajeQuitarUsuarioOtro()
+        {
+
+            //usuariochat = new usuarioperfil_has_chat(new Random().Next(0, 1000000), null, this, this.usuario, DateTime.Now, DateTime.Now);
+            //usuariochat.mensaje = new mensaje(1, ipAddress.ToString(), ConfigurationManager.AppSettings.Get("EnviarTodos, DateTime.Now, DateTime.Now, "quitar", ConfigurationManager.AppSettings.Get("IMesajeValidacion);
+            //bool enviado = pcliente.EnviarMensaje(usuariochat, ipAddressServidor.ToString());
+            //IPHostEntry entry = Dns.GetHostByName(Dns.GetHostName().ToString());
+            //ipAddress = entry.AddressList[0];
+            mensaje mensaje = new mensaje(1, this.equipo.IpCliente, ConfigurationManager.AppSettings.Get("EnviarTodos"), DateTime.Now, DateTime.Now.TimeOfDay, "quitar", ConfigurationManager.AppSettings.Get("IMesajeValidacion"));
+            unequipomensaje = new equipo_has_mensaje(mensaje, equipo);
+           // unequipomensaje.equipo.sala.puerto = int.Parse(ConfigurationManager.AppSettings.Get("PuertoConectar);
+            senviocierre = pcliente.EnviarMensaje(unequipomensaje, ipAddressServidor.ToString());
+           
+
+        }
+        public void EnvioMensajeAgregarUsuarioOtro()
+        {
+
+            //IPHostEntry entry = Dns.GetHostByName(Dns.GetHostName().ToString());
+                
+            //ipAddress = entry.AddressList[0];
+            //this.equipo.IpCliente = ipAddress.ToString();
+            mensaje temp = new mensaje(1, this.equipo.IpCliente, ConfigurationManager.AppSettings.Get("EnviarTodos"), DateTime.Now, DateTime.Now.TimeOfDay, ConfigurationManager.AppSettings.Get("Cagregar"), ConfigurationManager.AppSettings.Get("IMesajeValidacion"));
+            temp.cabecera= "Conectado";
+            temp.rtf="None";
+            unequipomensaje = new equipo_has_mensaje(temp, this.equipo);
+            bool enviado = pcliente.EnviarMensaje(unequipomensaje, ipAddressServidor.ToString());
+            
+
+        }
+
+        private void buttonDesc_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.timerCierre.Enabled = true;
+                this.EnvioMensajeQuitarUsuarioOtro();
+                this.buttonDesc.Visible = false;
+                this.Visible = false;
+            }
+            catch(Exception error)
+            {
+                MessageBox.Show(ConfigurationManager.AppSettings.Get("MensajeNoenviado"));
+                this.timerCierre.Enabled = false;
+                this.Close();
+            }
+
+        }
+
+        private void timerCierre_Tick(object sender, EventArgs e)
+        {
+            if (senviocierre)
+            {
+                this.pcliente.Cerrar();
+                this.timerEscuchando.Stop();
+                this.labelName.Text = "DESCONECTADO";
+                this.timerCierre.Enabled = false;
+            }
+            else
+            {
+                //MessageBox.Show(ConfigurationManager.AppSettings.Get("MensajeNoenviado"));
+                //this.timerCierre.Enabled = false;
+                this.Close();
+            }
+        }
+
+        private void buttonOcultar_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+      
+    }
+}

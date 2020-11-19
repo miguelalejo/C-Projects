@@ -1,0 +1,28 @@
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\bin\Aldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\bin\Aldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\bin\BaseAldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\obj\Release\Aldental.dll.licenses
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\obj\Release\RdlCompile.cache
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\obj\Release\RdlCompile.compiled
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\obj\Release\Aldental.dll
+C:\Documents and Settings\Sil\Escritorio\Sistema Aldental sabado\Aldental\Aldental\obj\Release\Aldental.pdb
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\obj\Release\Aldental.dll.licenses
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\obj\Release\RdlCompile.cache
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\1\Aldental\Aldental\obj\Release\RdlCompile.compiled
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\bin\Aldental.dll
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\bin\Aldental.pdb
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\bin\BaseAldental.dll
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\bin\ClasesAldental.dll
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\bin\BaseAldental.pdb
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\bin\ClasesAldental.pdb
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\obj\Release\Aldental.dll.licenses
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\obj\Release\RdlCompile.cache
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\obj\Release\RdlCompile.compiled
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\obj\Release\Aldental.dll
+C:\Documents and Settings\silvana\Escritorio\ALDENTAL\3\Aldental\Aldental\obj\Release\Aldental.pdb

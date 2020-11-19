@@ -1,0 +1,174 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.Master.cs" Inherits="Aldental.Prinncipal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>WEB ALDENTAL</title>
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+	
+    <style type="text/css">
+        .style1
+        {
+            width: 96%;
+            height: 416px;
+        }
+        .style2
+        {
+            width: 100%;
+        }
+        .style5
+        {
+            width: 227px;
+            height: 44px;
+        }
+        .style7
+        {
+            height: 137px;
+        }
+        .style8
+        {
+            height: 44px;
+        }
+        .style9
+        {
+        }
+        .style10
+        {
+            height: 23px;
+        }
+        .style12
+        {
+            height: 12px;
+        }
+        .style13
+        {
+            width: 100%;
+            height: 23px;
+        }
+    </style>
+	
+</head>
+
+<body>
+    <form id="form1" runat="server">
+  <div id="wrapper" style="background-color: #D4CAB6">
+
+    
+    <div id="header">
+      <div id="nav">
+        <ul>
+          <li><a href="Inicio.aspx">QUIENES SOMOS</a>| </li>
+          <li><a>SERVICIOS</a>| </li>
+          <li><a>REGISTRARSE</a>| </li>
+          <li><a>CONTÁCTENOS</a></li>
+        
+        </ul>
+      </div>
+
+      <div id="gallery">
+        <ul>
+          <li class="gwomen"><a href="http://www.freewebsitetemplates.com">Women</a></li>
+          <li class="gkids"><a href="http://www.freewebsitetemplates.com">Kids</a></li>
+          <li class="gmen"><a href="http://www.freewebsitetemplates.com">Men</a></li>
+        </ul>
+      </div>
+
+      <div id="logo">
+        <b><font face="castellar" size="12" color="#52616E">ALDENTAL</font></b>
+      </div>
+
+    </div>
+    <div id="body" style="background-color: #D4CAB6">
+      <div id="categories" style="background-color: #D4CAB6">
+        <h2><b>EMPRESA</b></h2>
+        <ul>
+          <li><a href="Inicio.aspx">Quienes Somos</a></li>
+          <li><a href="WebInicioS.aspx">Iniciar Sesión</a></li>
+       </ul>
+      </div>
+      <div id="seasonal">
+        <div class="inner">
+
+             <table class="style1">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <tr>
+                        <td>
+                            <table class="style2">
+                                <tr>
+                                    <td class="style12" colspan="3">
+
+          <h2><b><font color="black">BIENVENIDOS</font></b></h2>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style8">
+                                        <img alt="aldental" src="images/cabecera2.jpeg" /></td>
+                                    <td class="style5">
+                                      <p align="center" ><b><font color="maroon" size="2">QUIENES SOMOS</font></b></p>  </td>
+                                    <td class="style8">
+                                        <img alt="" src="images/cabecera1.jpeg" /></td>
+                                </tr>
+                                <tr>
+                                    <td class="style7" colspan="3">
+                                        <br />
+                                        <font color="Black">
+                                       Aldental es una empresa formada por un grupo multidisciplinario de  profesionales que brindan un trato personalizado en atención a nuestros clientes, cuyo objetivo principal es servirle en forma oportuna con transparencia y responsabilidad.
+                                       Como Organización, hemos adoptado como estándares las últimas y comprobadas metodologías que aseguran el éxito en el desempeño de cada una de nuestras actividades, y por consiguiente, garantizamos el éxito a nuestros clientes.
+                                        </font>
+                                        <br />
+                                   </td>
+                                </tr>
+                                <tr>
+                                    <td class="style10">
+                                        </td>
+                                    <td class="style13">                                        
+                                         <p align="center" ><b><font color="maroon"size="2">VISIÓN</font></b></p> 
+                                    </td>
+                                    <td class="style10">
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td class="style9" colspan="3">
+                                        <div class="style10">
+                                            <br />
+                                        <font color="Black">
+                                            Aldental es una empresa respetada y admirada por sus valores humanos, donde el
+                                            beneficio del cliente y del entorno es la meta de todos los que en el grupo 
+                                            trabajamos, donde el cliente se siente que compra productos y recibe servicios 
+                                            de gran valor y donde se respira un aire de armonía y alegría de trabajo.
+                                            <img align="right" alt="" src="images/consultas_38.jpg" /><br />
+                                           </font> <br />
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </asp:ContentPlaceHolder>
+            </table>
+        </div>
+      </div>
+      <div class="clear" style="background-color: #D4CAB6"> </div>
+      <div id="seas" style="background-color: #D4CAB6; height: 138px;">
+          <div id="seas-one" style="background-color: #D4CAB6">
+        </div>
+
+        <div id="seas-two" style="background-color: #D4CAB6">
+        </div>
+        <div id="seas-three" style="background-color: #D4CAB6">
+
+        </div>
+      </div>
+            <p style="background-color: #D4CAB6; height: 15px; width: 673px;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                Aldental venta de productos dentales</p>
+    </div>
+
+  </div>
+    </form>
+</body>
+</html>

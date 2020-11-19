@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace ProyectoEstadistica
+{
+    public partial class FormPonderacionVariable : Form
+    {
+        public FormPonderacionVariable()
+        {
+            InitializeComponent();
+        }
+
+        private void FormPonderacionVariable_Load(object sender, EventArgs e)
+        {
+
+        }
+
+      
+
+        
+    }
+}

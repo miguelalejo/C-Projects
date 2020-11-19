@@ -1,0 +1,8 @@
+c:\users\usuario\documents\visual studio 2010\Projects\ProyectoEstadistica\ProyectoEstadistica\bin\Debug\ProyectoEstadistica.exe
+c:\users\usuario\documents\visual studio 2010\Projects\ProyectoEstadistica\ProyectoEstadistica\bin\Debug\ProyectoEstadistica.pdb
+c:\users\usuario\documents\visual studio 2010\Projects\ProyectoEstadistica\ProyectoEstadistica\obj\x86\Debug\ProyectoEstadistica.FormPrincipal.resources
+c:\users\usuario\documents\visual studio 2010\Projects\ProyectoEstadistica\ProyectoEstadistica\obj\x86\Debug\ProyectoEstadistica.FormVariable.resources
+c:\users\usuario\documents\visual studio 2010\Projects\ProyectoEstadistica\ProyectoEstadistica\obj\x86\Debug\ProyectoEstadistica.Properties.Resources.resources
+c:\users\usuario\documents\visual studio 2010\Projects\ProyectoEstadistica\ProyectoEstadistica\obj\x86\Debug\ProyectoEstadistica.csproj.GenerateResource.Cache
+c:\users\usuario\documents\visual studio 2010\Projects\ProyectoEstadistica\ProyectoEstadistica\obj\x86\Debug\ProyectoEstadistica.exe
+c:\users\usuario\documents\visual studio 2010\Projects\ProyectoEstadistica\ProyectoEstadistica\obj\x86\Debug\ProyectoEstadistica.pdb

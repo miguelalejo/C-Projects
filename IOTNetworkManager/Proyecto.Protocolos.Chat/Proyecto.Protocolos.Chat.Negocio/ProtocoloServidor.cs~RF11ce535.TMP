@@ -1,0 +1,222 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Net;
+using System.Net.Sockets;
+using System.Threading;
+using Proyecto.Protocolos.Chat.Entidades;
+using System.Runtime.Serialization;
+
+namespace Proyecto.Protocolos.Chat.Negocio
+{
+    class ProtocoloServidor
+    {
+        TcpListener Listener;	//Para habilitaru puerto
+        TcpClient Cliente;		//Para obtener el Cliente
+        NetworkStream Stream; //Para el fichero de intercambio
+        TcpClient[] listaCliente;
+        NetworkStream[] listaStream;
+        Thread InicioChat;
+        public ProtocoloServidor(IPAddress ipAddress, Int32 port)
+        {
+            //IPHostEntry ipHostInfo = Dns.Resolve(Dns.GetHostName());
+            //IPAddress ipAddress = ipHostInfo.AddressList[0];
+            //Int32 port = 2020;
+            this.Listener = new System.Net.Sockets.TcpListener(ipAddress, port);	//Inicializo el TCPListener en el puerto 2020
+            this.Listener.Start();										//Pongo el puerto en Escucha
+            InicioChat = new Thread(this.Leer);
+            InicioChat.Start();
+        }
+        public void Leer()
+        {
+            while (true)
+            {
+                this.Cliente = this.Listener.AcceptTcpClient();
+                this.Stream = this.Cliente.GetStream();
+
+                byte[] buff = new byte[256]; //Declaro arreglo de bytes para almacenar lo recibido
+                if (this.listaCliente == null)
+                {
+                    buff = System.Text.Encoding.ASCII.GetBytes("Hola ya te conectaste");//Convierto la cadena de Saludo a Bytes	
+                    if (Stream.CanWrite)									//Si puedo escribir Escribo
+                        Stream.Write(buff, 0, buff.Length);
+                }
+                else
+                {
+                    if (!this.existe(this.Cliente))
+                    {
+                        buff = System.Text.Encoding.ASCII.GetBytes("Hola ya te conectaste");//Convierto la cadena de Saludo a Bytes	
+                        if (Stream.CanWrite)									//Si puedo escribir Escribo
+                            Stream.Write(buff, 0, buff.Length);
+                    }
+                }
+                this.LlenarClientesStream(this.Cliente, this.Stream);
+
+            }
+
+
+        }
+        public void LlenarClientesStream(TcpClient un_Cliente, NetworkStream un_Stream)
+        {
+            if (this.listaCliente != null)
+            {
+                if (!this.existe(un_Cliente))
+                {
+                    TcpClient[] tempC = new TcpClient[this.listaCliente.Length + 1];
+                    NetworkStream[] tempS = new NetworkStream[this.listaStream.Length + 1];
+                    this.listaCliente.CopyTo(tempC, 0);
+                    this.listaStream.CopyTo(tempS, 0);
+                    tempC[this.listaCliente.Length] = un_Cliente;
+                    tempS[this.listaStream.Length] = un_Stream;
+                    this.listaCliente = tempC;
+                    this.listaStream = tempS;
+                }
+                else
+                {
+                    this.llenar(un_Cliente, un_Stream);
+                }
+            }
+            else
+            {
+                this.listaCliente = new TcpClient[1];
+                this.listaStream = new NetworkStream[1];
+                this.listaCliente[0] = un_Cliente;
+                this.listaStream[0] = un_Stream;
+            }
+
+        }
+        public bool existe(TcpClient temp)
+        {
+
+            for (int i = 0; i < this.listaCliente.Length; i++)
+            {
+                IPEndPoint ipend = (IPEndPoint)temp.Client.RemoteEndPoint;
+                IPEndPoint iplista = (IPEndPoint)this.listaCliente[i].Client.RemoteEndPoint;
+                if (ipend.Address.Equals(iplista.Address))
+                    return true;
+            }
+            return false;
+        }
+        public void llenar(TcpClient un_Cliente, NetworkStream un_Stream)
+        {
+            TcpClient[] tempC = this.listaCliente;
+            NetworkStream[] tempS = this.listaStream;
+            for (int i = 0; i < this.listaCliente.Length; i++)
+            {
+                IPEndPoint ipend = (IPEndPoint)un_Cliente.Client.RemoteEndPoint;
+                IPEndPoint iplista = (IPEndPoint)tempC[i].Client.RemoteEndPoint;
+                if (ipend.Address.Equals(iplista.Address))
+                {
+
+                    tempC[i] = un_Cliente;
+                    tempS[i] = un_Stream;
+                }
+                else
+                    tempC[i] = this.listaCliente[i];
+                tempS[i] = this.listaStream[i];
+            }
+            this.listaCliente = tempC;
+            this.listaStream = tempS;
+
+        }
+
+
+        public int NumeroClientes()
+        {
+            int numero = 0;
+            for (int i = 0; i < this.listaCliente.Length; i++)
+            {
+
+                if (this.listaCliente[i] != null && this.listaCliente[i].Client.Connected)
+                {
+
+                    numero++;
+                }
+
+            }
+            return numero;
+        }
+        public void quitarclientes()
+        {
+
+            if (this.listaCliente != null)
+            {
+
+                int n = this.NumeroClientes();
+                TcpClient[] tempC = new TcpClient[n];
+                NetworkStream[] tempS = new NetworkStream[n];
+                for (int i = 0, k = 0; i < this.listaCliente.Length; i++)
+                {
+                    if (this.listaCliente[i] != null && this.listaCliente[i].Client.Connected)
+                    {
+                        tempC[k] = this.listaCliente[i];
+                        tempS[k] = this.listaStream[i];
+                        k++;
+                    }
+                }
+                this.listaCliente = null;
+                this.listaStream = null;
+                this.listaCliente = tempC;
+                this.listaStream = tempS;
+
+            }
+
+
+        }
+
+        private void Cerrar()
+        {
+            InicioChat.Abort();
+            this.Stream.Close();
+            this.Cliente.Close();
+            this.Listener.Stop();
+        }
+        public void EnviarMensaje(usuarioperfil_has_chat un_usuariochat, string ipservidor)
+        {
+            for (int i = 0; i < this.listaStream.Length; i++)
+            {
+                TcpClient temp = this.listaCliente[i];
+                IFormatter formatter = new BinaryFormatter();
+                formatter.Serialize(Stream, un_usuariochat);
+
+                byte[] buff = new byte[un_usuariochat.mensaje.valor.Length];
+                buff = System.Text.Encoding.ASCII.GetBytes(un_usuariochat.mensaje.valor);
+                Stream.Write(buff, 0, (int)buff.Length);
+                if (this.listaCliente[i].Connected)
+                {
+
+                    //IPEndPoint iplista = (IPEndPoint)this.listaCliente[i].Client.RemoteEndPoint;
+                    //TcpClient client = new TcpClient(iplista.Address.ToString(), 2020);
+                    try
+                    {
+                        NetworkStream strm = this.listaCliente[i].GetStream();
+
+                        if (strm.CanWrite)
+                        {
+                            IFormatter formatter = new BinaryFormatter();
+                            formatter.Serialize(Stream, un_usuariochat);
+
+                            byte[] buff = new byte[un_usuariochat.mensaje.valor.Length];
+                            buff = System.Text.Encoding.ASCII.GetBytes(un_usuariochat.mensaje.valor);
+                            strm.Write(buff, 0, (int)buff.Length);
+                        }
+                    }
+                    catch (Exception error)
+                    {
+                        MessageBox.Show(error.Message);
+                        this.quitarclientes();
+                        IPEndPoint iplista = (IPEndPoint)temp.Client.RemoteEndPoint;
+                        MessageBox.Show(iplista.Address.ToString() + " estado: " + Cliente.Connected.ToString());
+                    }
+
+
+                }
+            }
+        }
+
+
+
+
+    }
+}

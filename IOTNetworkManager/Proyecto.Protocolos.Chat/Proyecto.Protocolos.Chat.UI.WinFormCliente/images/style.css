@@ -1,0 +1,173 @@
+ body {
+  background: #333333;
+  font-family: Tahoma, Verdana;
+  font-size: 10pt;
+ }
+ 
+ #photo {
+   width: 900px;
+   height: 215px;
+   background: url(header_image.jpg);  
+   
+ }
+ 
+ #top_nav {
+   width: 900px; 
+   background: yellow;  
+ } 
+ 
+ #body_wrapper {
+   width: 900px; 
+ }
+ 
+ #left_nav {
+    padding-top: 8px;
+    width: 200px;
+    float: left;
+    margin: 0 auto;
+ }
+  
+ #right_nav {
+    padding-top: 8px;
+    width: 200px;
+    float: left;
+    margin: 0 auto;
+ } 
+ 
+ #content {
+    padding-top: 8px;
+    width: 500px;
+    float: left;
+    margin: 0 auto;
+ } 
+ 
+ #footer {
+   width: 900px;
+   background: green;  
+ }    
+ 
+ 
+ 
+.box { 
+ width: 98%;
+  background: #999999; 
+}
+.box_middle { 
+ width: 98%;
+  background: #999999; 
+}
+
+.box_footer { 
+ width: 100%;
+  background: #999999; 
+}
+
+.box_nav { 
+ width: 100%;
+  background: #999999; 
+}
+
+
+/* box stuff for the main */
+
+.boxtop { 
+  height: 20px; 
+  background: url(ne.gif) no-repeat top right; 
+}
+.boxtop div { 
+  height: 20px; 
+  background: url(nw.gif) no-repeat top left; 
+}
+.boxbottom { 
+  height: 20px; 
+  background: url(se.gif) no-repeat bottom right; 
+}
+.boxbottom div { 
+  height: 20px; 
+  background: url(sw.gif) no-repeat bottom left; 
+}
+.boxcontent {
+  padding: 0px 15px 0px 15px;
+}
+
+/* END box stuff for the main */ 
+ 
+
+.boxtop_small { 
+  height: 10px; 
+  background: url(nes.gif) no-repeat top right; 
+}
+.boxtop_small div { 
+  height: 10px; 
+  background: url(nws.gif) no-repeat top left; 
+}
+.boxbottom_small { 
+  height: 10px; 
+  background: url(ses.gif) no-repeat bottom right; 
+}
+.boxbottom_small div { 
+  height: 10px; 
+  background: url(sws.gif) no-repeat bottom left; 
+}
+.boxcontent_small {
+  padding: 0px 15px 0px 15px;
+} 
+ 
+h1 {
+ font-size: 12pt;
+ margin-top: 0px;
+}
+ 
+a:link, a:visited, a:active {
+ color: #D9D1C3; 
+ text-decoration: none;
+} 
+
+a:hover {
+ color: #FFF6E6; 
+} 
+
+img { border: 0px; }
+ 
+/* THE TOP NAV BAR */
+ 
+.mattblacktabs{
+/* width: 100%; */
+overflow: hidden;
+border-bottom: 0px solid black; /*bottom horizontal line that runs beneath tabs*/
+}
+
+.mattblacktabs ul{
+margin: 0;
+padding: 0;
+padding-left: 10px; /*offset of tabs relative to browser left edge*/
+font: bold 12px Verdana;
+list-style-type: none;
+}
+
+.mattblacktabs li{
+display: inline;
+margin: 0;
+}
+
+.mattblacktabs li a{
+letter-spacing: 2px;
+float: left;
+display: block;
+text-decoration: none;
+margin: 0;
+padding: 7px 8px; /*padding inside each tab*/
+border-right: 5px solid #999999; /*right divider between tabs*/
+color: white;
+background: #414141; /*background of tabs (default state)*/
+}
+
+.mattblacktabs li a:visited{
+color: white;
+}
+
+.mattblacktabs li a:hover, .mattblacktabs li.selected a{
+background: black; /*background of tabs for hover state, plus tab with "selected" class assigned to its LI */
+}
+
+/* THE TOP NAV BAR */

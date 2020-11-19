@@ -1,0 +1,94 @@
+<setting name="Cabecera" serializeAs="String">
+                <value>Salas </value>
+            </setting>
+            <setting name="IpServidor" serializeAs="String">
+                <value>192.168.1.3</value>
+            </setting>
+            <setting name="PuertoIngreso" serializeAs="String">
+                <value>2001</value>
+            </setting>
+            <setting name="EnviarTodos" serializeAs="String">
+                <value>all</value>
+            </setting>
+            <setting name="IMensajeConectar" serializeAs="String">
+                <value>conectar</value>
+            </setting>
+            <setting name="IMesajeValidacion" serializeAs="String">
+                <value>validacion</value>
+            </setting>
+            <setting name="MensajeNoenviado" serializeAs="String">
+                <value>mensaje no enviado</value>
+            </setting>
+            <setting name="SinServidor" serializeAs="String">
+                <value>El servidor está desconectado</value>
+            </setting>
+            <setting name="InvalidUser" serializeAs="String">
+                <value>Usuario {0}  no válido</value>
+            </setting>
+            <setting name="ParametroInvalido" serializeAs="String">
+                <value>Ingrese parametros validos</value>
+            </setting>
+            <setting name="UsuarioActivo" serializeAs="String">
+                <value>El usuario {0} está en línea</value>
+            </setting>
+            <setting name="Cagregar" serializeAs="String">
+                <value>agregar</value>
+            </setting>
+            <setting name="Cestado" serializeAs="String">
+                <value>estado</value>
+            </setting>
+            <setting name="PuertoConectar" serializeAs="String">
+                <value>2005</value>
+            </setting>
+            <setting name="SalaNoConectada" serializeAs="String">
+                <value>La sala no esta conectada</value>
+            </setting>
+            <setting name="NoExistenSalas" serializeAs="String">
+                <value>No existe ninguna sala conectada</value>
+            </setting>
+            <setting name="ListaUsuarios" serializeAs="String">
+                <value>lista</value>
+            </setting>
+            <setting name="MetodoEnvio" serializeAs="String">
+                <value>mensaje</value>
+            </setting>
+            <setting name="TextoPrivado" serializeAs="String">
+                <value>MENSAJE PRIVADO</value>
+            </setting>
+            <setting name="NoSelUsuario" serializeAs="String">
+                <value>No se ha seleccionado un usuario</value>
+            </setting>
+            <setting name="TCambioSala" serializeAs="String">
+                <value>Usuario {0} Bienvenido al GRUPO {1} TE ENCUENTRAS EN LA {2}</value>
+            </setting>
+            <setting name="TInfo" serializeAs="String">
+                <value>Informacion</value>
+            </setting>
+
+
+
+<appSettings>
+  <add key="IPServidor" value="192.168.1.3" />
+  <add key="PuertoIngreso" value="2001" />
+  <add key="EnviarTodos" value="all" />
+  <add key="IMensajeConectar" value="conectar" />
+  <add key="IMesajeValidacion" value="validacion" />
+  <add key="MensajeNoenviado" value="mensaje no enviado" />
+  <add key="SinServidor" value="El servidor está desconectado" />
+  <add key="InvalidUser" value="Usuario {0}  no válido" />
+  <add key="ParametroInvalido" value="Ingrese parametros validos" />
+  <add key="UsuarioActivo" value="El usuario {0} está en línea" />
+  <add key="Cagregar" value="agregar" />
+  <add key="Cestado" value="estado" />
+  <add key="PuertoConectar" value="2005" />
+  <add key="SalaNoConectada" value="La sala no esta conectada" />
+  <add key="NoExistenSalas" value="No existe ninguna sala conectada" />
+  <add key="ListaUsuarios" value="lista" />
+  <add key="MetodoEnvio" value="mensaje" />
+  <add key="TextoPrivado" value="MENSAJE PRIVADO" />
+  <add key="NoSelUsuario" value="No se ha seleccionado un usuario" />
+  <add key="TCambioSala" value="Usuario {0} Bienvenido al GRUPO {1} TE ENCUENTRAS EN LA {2}" />
+  <add key="TInfo" value="Información" />
+  <add key="ClientSettingsProvider.ServiceUri" value="" />
+</appSettings>
+  

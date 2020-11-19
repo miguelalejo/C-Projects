@@ -1,0 +1,8 @@
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\bin\Release\InformacionSistema.exe
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\bin\Release\InformacionSistema.pdb
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\obj\Release\InformacionSistema.Form1.resources
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\obj\Release\InformacionSistema.Properties.Resources.resources
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\obj\Release\InformacionSistema.csproj.GenerateResource.Cache
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\obj\Release\InformacionSistema.exe
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\obj\Release\InformacionSistema.pdb

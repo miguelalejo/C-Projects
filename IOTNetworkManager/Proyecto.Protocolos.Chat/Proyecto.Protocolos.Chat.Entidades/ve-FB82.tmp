@@ -1,0 +1,42 @@
+﻿using System;
+using System.Drawing;
+using System.Collections;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Data;
+using Microsoft.Win32;
+
+namespace Proyecto.Protocolos.Chat.Entidades
+{
+    [Serializable]
+    class InformacionBasica
+    {
+        string tamañomonitor;
+        string direcotriosistema;
+        string nombremaquina;
+        long tamañomemoria;
+        string minutosactiva;
+        string opversion;
+        string version;
+        string nombreusuario;
+        string nombreusuariodomino;
+        string tipoprocesador;
+        public void GetInformacion()
+        {
+            this.tamañomonitor = SystemInformation.PrimaryMonitorSize;
+            this.direcotriosistema = System.Environment.SystemDirectory;
+            this.direcotriosistema = System.Environment.MachineName;
+            this.tamañomemoria = System.Environment.WorkingSet;
+            int q = System.Environment.TickCount;
+            int w = (q / 1000) / 60;
+            this.minutosactiva = w;
+            this.opversion = System.Environment.OSVersion.ToString();
+            this.version = System.Environment.Version.ToString();
+            this.nombreusuario = System.Environment.UserName;
+            this.nombreusuariodomino = System.Environment.UserDomainName;
+            RegistryKey Rkey = Registry.LocalMachine;
+            Rkey = Rkey.OpenSubKey("HARDWARE\\DESCRIPTION\\System\\CentralProcessor\\0");
+            this.tipoprocesador = (string)Rkey.GetValue("ProcessorNameString");
+        }
+    }
+}

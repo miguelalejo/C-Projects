@@ -1,0 +1,72 @@
+C:\Users\Cristian\Documents\Visual Studio 2008\Projects\DISCO\DISCO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Cristian\Documents\Visual Studio 2008\Projects\DISCO\DISCO\obj\Debug\DISCO.Form1.resources
+C:\Users\Cristian\Documents\Visual Studio 2008\Projects\DISCO\DISCO\obj\Debug\DISCO.FormaDescripcion.resources
+C:\Users\Cristian\Documents\Visual Studio 2008\Projects\DISCO\DISCO\obj\Debug\DISCO.FormaInformacionDetalladaDeDisco.resources
+C:\Users\Cristian\Documents\Visual Studio 2008\Projects\DISCO\DISCO\obj\Debug\DISCO.Properties.Resources.resources
+C:\Users\Cristian\Documents\Visual Studio 2008\Projects\DISCO\DISCO\obj\Debug\DISCO.csproj.GenerateResource.Cache
+C:\Users\Cristian\Documents\Visual Studio 2008\Projects\DISCO\DISCO\bin\Debug\DISCO.exe
+C:\Users\Cristian\Documents\Visual Studio 2008\Projects\DISCO\DISCO\bin\Debug\DISCO.pdb
+C:\Users\Cristian\Documents\Visual Studio 2008\Projects\DISCO\DISCO\obj\Debug\DISCO.exe
+C:\Users\Cristian\Documents\Visual Studio 2008\Projects\DISCO\DISCO\obj\Debug\DISCO.pdb
+C:\Users\Cristian\Documents\Visual Studio 2008\Projects\DISCO\DISCO\obj\Debug\RdlCompile.cache
+C:\Users\Cristian\Documents\Visual Studio 2008\Projects\DISCO\DISCO\obj\Debug\RdlCompile.compiled
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\bin\Debug\DISCO.exe
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\bin\Debug\DISCO.pdb
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.Form1.resources
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.FormaDescripcion.resources
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.FormaInformacionDetalladaDeDisco.resources
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.Properties.Resources.resources
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.csproj.GenerateResource.Cache
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\RdlCompile.cache
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\RdlCompile.compiled
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.exe
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.pdb
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\bin\Debug\DISCO.exe
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\bin\Debug\DISCO.pdb
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.Form1.resources
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.FormaDescripcion.resources
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.FormaInformacionDetalladaDeDisco.resources
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.exe
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.pdb
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\bin\Debug\DISCO.exe
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\bin\Debug\DISCO.pdb
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.Form1.resources
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.FormaDescripcion.resources
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.FormaInformacionDetalladaDeDisco.resources
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.Properties.Resources.resources
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.csproj.GenerateResource.Cache
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.exe
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.pdb
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\bin\Debug\DISCO.exe
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\bin\Debug\DISCO.pdb
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.Form1.resources
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.FormaDescripcion.resources
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.FormaInformacionDetalladaDeDisco.resources
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.exe
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.pdb
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\bin\Debug\DISCO.exe
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\bin\Debug\DISCO.pdb
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.Form1.resources
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.FormaDescripcion.resources
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.FormaInformacionDetalladaDeDisco.resources
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.Properties.Resources.resources
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.csproj.GenerateResource.Cache
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\RdlCompile.cache
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\RdlCompile.compiled
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.exe
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\DISCO\DISCO\obj\Debug\DISCO.pdb

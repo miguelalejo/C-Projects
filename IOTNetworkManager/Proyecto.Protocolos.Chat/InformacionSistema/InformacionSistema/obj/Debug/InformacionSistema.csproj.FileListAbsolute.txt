@@ -1,0 +1,66 @@
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\bin\Debug\InformacionSistema.exe
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\bin\Debug\InformacionSistema.pdb
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.Form1.resources
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.Properties.Resources.resources
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.csproj.GenerateResource.Cache
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.exe
+C:\Documents and Settings\Cristian\Mis documentos\Visual Studio 2008\Projects\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.pdb
+C:\Documents and Settings\Administrador\Escritorio\InformacionSistema\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.exe
+C:\Documents and Settings\Administrador\Escritorio\InformacionSistema\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.pdb
+C:\Documents and Settings\Administrador\Escritorio\InformacionSistema\InformacionSistema\InformacionSistema\bin\Debug\InformacionSistema.exe
+C:\Documents and Settings\Administrador\Escritorio\InformacionSistema\InformacionSistema\InformacionSistema\bin\Debug\InformacionSistema.pdb
+C:\Documents and Settings\Administrador\Escritorio\InformacionSistema\InformacionSistema\InformacionSistema\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\InformacionSistema\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.Form1.resources
+C:\Documents and Settings\Administrador\Escritorio\InformacionSistema\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Escritorio\InformacionSistema\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\bin\Debug\InformacionSistema.exe
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\bin\Debug\InformacionSistema.pdb
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.FormInformacion.resources
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.exe
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.pdb
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\Interop.ASOCKETLib.dll
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\bin\Debug\Interop.ASOCKETLib.dll
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\Interop.ASOCKETLib.dll
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.csproj.ResolveComReference.cache
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.FormInformacion.resources
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.Properties.Resources.resources
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.csproj.GenerateResource.Cache
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\bin\Debug\InformacionSistema.exe
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\bin\Debug\InformacionSistema.pdb
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\bin\Debug\Interop.ASOCKETLib.dll
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.exe
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.pdb
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\bin\Debug\InformacionSistema.exe
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\bin\Debug\InformacionSistema.pdb
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\bin\Debug\Interop.ASOCKETLib.dll
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\Interop.ASOCKETLib.dll
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.FormInformacion.resources
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.exe
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.pdb
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\bin\Debug\InformacionSistema.dll
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\bin\Debug\InformacionSistema.pdb
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\bin\Debug\Interop.ASOCKETLib.dll
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\Interop.ASOCKETLib.dll
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.csproj.ResolveComReference.cache
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.FormInformacion.resources
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.Properties.Resources.resources
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.csproj.GenerateResource.Cache
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\RdlCompile.cache
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\RdlCompile.compiled
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.dll
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\InformacionSistema\InformacionSistema\obj\Debug\InformacionSistema.pdb

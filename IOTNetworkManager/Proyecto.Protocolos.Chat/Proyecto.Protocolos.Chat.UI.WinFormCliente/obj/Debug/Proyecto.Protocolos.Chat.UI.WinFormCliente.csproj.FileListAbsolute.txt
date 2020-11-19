@@ -1,0 +1,193 @@
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormCliente.resources
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormConectarServidor.resources
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormLogin.resources
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormSeleccionSalas.resources
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties.Resources.resources
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.csproj.GenerateResource.Cache
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.config
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Negocio.dll
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Negocio.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.config
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Negocio.dll
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.dll
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Negocio.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.AccesoDatos.pdb
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormCliente.resources
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormConectarServidor.resources
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormLogin.resources
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormSeleccionSalas.resources
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties.Resources.resources
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.csproj.GenerateResource.Cache
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Proyecto.Protocolos.Chat - copia\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.config
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormCliente.resources
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormConectarServidor.resources
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormLogin.resources
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormMensajePrivado.resources
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormSalir.resources
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties.Resources.resources
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.csproj.GenerateResource.Cache
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Desktop\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.config
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormCliente.resources
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormConectarServidor.resources
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormLogin.resources
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormMensajePrivado.resources
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormSalir.resources
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties.Resources.resources
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.csproj.GenerateResource.Cache
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Users\COMPAC\PROYECTOS protocolos\PROYECTO PROTOCOLOS GRUPO 3\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.config
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormCliente.resources
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormLogin.resources
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties.Resources.resources
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.csproj.GenerateResource.Cache
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Desktop\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.config
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormCliente.resources
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormLogin.resources
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties.Resources.resources
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.csproj.GenerateResource.Cache
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Users\COMPAC\Desktop\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.config
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormCliente.resources
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormLogin.resources
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties.Resources.resources
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.csproj.GenerateResource.Cache
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Telematica\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.config
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormCliente.resources
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormLogin.resources
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Documents and Settings\Administrador\Escritorio\Apliaccion Chat M2M\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.config
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormCliente.resources
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormLogin.resources
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties.Resources.resources
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.csproj.GenerateResource.Cache
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Documents and Settings\Cristian\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.config
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormCliente.resources
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormLogin.resources
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Documents and Settings\Administrador\Escritorio\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.config
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.dll
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Proyecto.Protocolos.Chat.Entidades.pdb
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Interop.WMICNTLLib.dll
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\bin\Debug\Interop.WMISCRIPTUTILSLib2.dll
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Interop.WMICNTLLib.dll
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Interop.WMISCRIPTUTILSLib2.dll
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.csproj.ResolveComReference.cache
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormCliente.resources
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormLogin.resources
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormPropiedades.resources
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.FormSeccionPosicionCliente.resources
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.Properties.Resources.resources
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.csproj.GenerateResource.Cache
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe.manifest
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.application
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.exe
+C:\Users\COMPAC\Desktop\aplicacion chat\Proyecto.Protocolos.Chat\Proyecto.Protocolos.Chat.UI.WinFormCliente\obj\Debug\Proyecto.Protocolos.Chat.UI.WinFormCliente.pdb

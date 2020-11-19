@@ -1,0 +1,234 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Proyecto.Protocolos.Chat.Entidades;
+using Proyecto.Protocolos.Chat.AccesoDatos;
+using System.Data;
+
+namespace Proyecto.Protocolos.Chat.Negocio
+{
+    public class Nequipo
+    {
+
+        public static void Guardarequipo(equipo un_equipo)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            baseeq.Guardarequipo(un_equipo);
+            // AdministradorCorreo.EnviarCorreoCreacionCuenta(equipo.Nombres, equipo.Clave, equipo.Correo);
+        }
+        public static void Modificarequipo(equipo un_equipo)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            baseeq.Modificarequipo(un_equipo);
+            // AdministradorCorreo.EnviarCorreoCreacionCuenta(equipo.Nombres, equipo.Clave, equipo.Correo);
+        }
+        public static void ModificarTodosequipo_Estado()
+        {
+                 Baseequipo baseeq = new Baseequipo();
+                 baseeq.ModificarTodosequipo_Estado();
+        }
+        public static void Modificarequipo_Ipequipo(string unaip,int unid)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            baseeq.Modificarequipo_IPequipo(unaip,unid);
+        }
+        public static void Eliminarequipo(equipo un_equipo)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            baseeq.Eliminarequipo(un_equipo.idEquipo);
+            // AdministradorCorreo.EnviarCorreoCreacionCuenta(equipo.Nombres, equipo.Clave, equipo.Correo);
+        }
+        public static void Registrosequipo()
+        {
+            Baseequipo baseeq = new Baseequipo();
+            baseeq.Registrosequipo();
+            // AdministradorCorreo.EnviarCorreoCreacionCuenta(equipo.Nombres, equipo.Clave, equipo.Correo);
+        }
+        public static equipo[] BuscarRegistrosequipo()
+        {
+            Baseequipo baseeq = new Baseequipo();
+            return baseeq.BuscarRegistrosequipo();
+
+        }
+       
+
+        public static equipo[] BuscarRegistros_idequipo(int idequipo)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            return baseeq.BuscarRegistros_idEquipo(idequipo);
+        }
+
+        public static equipo[] BuscarRegistros_idPerfil(int idPerfil)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            return baseeq.BuscarRegistros_idPerfil(idPerfil);
+        }
+
+        public static equipo[] BuscarRegistros_Mac(String Mac)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            return baseeq.BuscarRegistros_Mac(Mac);
+        }
+
+        
+
+        public static equipo[] BuscarRegistros_NombreNick(String NombreNick)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            return baseeq.BuscarRegistros_NombreNick(NombreNick);           
+        }
+
+        public static equipo[] BuscarRegistros_Contraseña(String Contraseña)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            return baseeq.BuscarRegistros_Contraseña(Contraseña);
+        }      
+
+        public static equipo[] BuscarRegistros_VecesIngreso(int VecesIngreso)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            return baseeq.BuscarRegistros_VecesIngreso(VecesIngreso);
+        }
+
+        public static equipo[] BuscarRegistros_Activo(bool Activo)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            return baseeq.BuscarRegistros_Activo(Activo);
+        }
+        public static equipo[] LlenarListaequipo(equipo[] listaequipoSala, equipo unequipo)
+        {
+
+            if (listaequipoSala != null && listaequipoSala.Length > 0)
+            {
+                bool llenar = true;
+                for (int i = 0; i < listaequipoSala.Length; i++)
+                {
+                    if (listaequipoSala[i].idEquipo == unequipo.idEquipo)
+                    {
+                        llenar = false;
+                        //throw new Exception("Error el equipo ya esta conectado");
+                    }
+                }
+                if (llenar)
+                {
+                    equipo[] tempus = new equipo[listaequipoSala.Length + 1];
+                    listaequipoSala.CopyTo(tempus, 0);
+                    tempus[listaequipoSala.Length] = unequipo;
+                    listaequipoSala = tempus;
+                }
+            }
+            else
+            {
+                listaequipoSala = new equipo[1];
+                listaequipoSala[0] = unequipo;
+
+            }
+            return listaequipoSala;
+        }
+        public static equipo[] LlenarListaequipo_ListaSala(equipo[] listaequipoSala, equipo[] listaequipo)
+        {
+            equipo[] equipo = new equipo[1];
+
+            for (int i = 0; i < listaequipo.Length; i++)
+                {
+
+                    equipo = LlenarListaequipo(listaequipoSala, listaequipo[i]);
+                      
+                }
+
+            return equipo;
+        }
+        public static equipo[]  QuitarListaequipo(equipo[] listaequipoSala,equipo unequipo)
+        {
+            
+            if (listaequipoSala.Length > 0)
+            {
+                equipo[] tempus = new equipo[listaequipoSala.Length - 1];
+                //equipo[] tempus = new equipo[listaequipoSala.Length];
+                for (int i = 0, k = 0; i < listaequipoSala.Length; i++)
+                {
+                    if (listaequipoSala[i].idEquipo != unequipo.idEquipo)
+                    {
+
+                        tempus[k] = listaequipoSala[i];
+                        k++;
+                    }
+                }
+                listaequipoSala = tempus;
+                return listaequipoSala;
+            }
+            else
+                return null;
+
+        }
+        public static void Modificarequipo_Estado(bool estado, int idequipo)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            baseeq.Modificarequipo_Estado(estado, idequipo);
+        }
+        public static void ModificarListaequipo_Estado(bool estado,equipo[]listaequipos)
+        {
+            for (int i = 0; i < listaequipos.Length; i++)
+            {
+                Baseequipo baseeq = new Baseequipo();
+                baseeq.Modificarequipo_Estado(estado, listaequipos[i].idEquipo);
+            }
+        }
+        
+        public static equipo[] equipodelSala(int idSala,equipo_has_mensaje[]equipoSala)
+        {
+            equipo[] equipo = new equipo[NumeroequipodelSala(idSala, equipoSala)];
+            for (int i = 0, k = 0; i < equipo.Length && k < equipo.Length; i++)
+            {
+                if(equipoSala[i].equipo.sala.idSala==idSala)
+                {
+                    equipo[k] = equipoSala[i].equipo;
+                    k++;
+                }
+            }
+            return equipo;
+        }
+        public static int NumeroequipodelSala(int idSala, equipo_has_mensaje[] equipoSala)
+        {
+            int contar = 0;
+            for (int i = 0; i < equipoSala.Length; i++)
+            {
+                if (equipoSala[i].equipo.sala.idSala == idSala)
+                    contar++;
+            }
+            return contar;
+
+        }
+        public static equipo[] equipodelSalaActivos(int idSala, equipo_has_mensaje[] equipoSala)
+        {
+            equipo[] equipo = new equipo[NumeroequipodelSala(idSala, equipoSala)];
+            for (int i = 0, k = 0; i < equipo.Length && k < equipo.Length; i++)
+            {
+                if (equipoSala[i].equipo.sala.idSala == idSala)
+                {
+                    equipo[k] = equipoSala[i].equipo;
+                    k++;
+                }
+            }
+            return equipo;
+        }
+
+        public static int NumeroequipodelSalaActivos(int idSala, equipo_has_mensaje[] equipoSala)
+        {
+            int contar = 0;
+            for (int i = 0; i < equipoSala.Length; i++)
+            {
+                if (equipoSala[i].equipo.sala.idSala == idSala && equipoSala[i].equipo.Activo)
+                    contar++;
+            }
+            return contar;
+        }
+        public static void Modificarequipo_VecesIngresoSala(int veces, int idequipo)
+        {
+            Baseequipo baseeq = new Baseequipo();
+            baseeq.Modificarequipo_VecesIngresoSala(veces, idequipo);
+        }
+        
+    }
+}

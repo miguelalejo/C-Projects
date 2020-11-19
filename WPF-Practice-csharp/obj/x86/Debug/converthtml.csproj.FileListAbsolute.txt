@@ -1,0 +1,9 @@
+C:\Users\USUARIO\Documents\WPF\csharp\bin\Debug\XAMLConverter.exe
+C:\Users\USUARIO\Documents\WPF\csharp\bin\Debug\XAMLConverter.pdb
+C:\Users\USUARIO\Documents\WPF\csharp\obj\x86\Debug\Window1.baml
+C:\Users\USUARIO\Documents\WPF\csharp\obj\x86\Debug\Window1.g.cs
+C:\Users\USUARIO\Documents\WPF\csharp\obj\x86\Debug\App.g.cs
+C:\Users\USUARIO\Documents\WPF\csharp\obj\x86\Debug\XAMLConverter_MarkupCompile.cache
+C:\Users\USUARIO\Documents\WPF\csharp\obj\x86\Debug\XAMLConverter.g.resources
+C:\Users\USUARIO\Documents\WPF\csharp\obj\x86\Debug\XAMLConverter.exe
+C:\Users\USUARIO\Documents\WPF\csharp\obj\x86\Debug\XAMLConverter.pdb

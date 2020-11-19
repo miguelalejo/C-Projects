@@ -1,0 +1,240 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Sistema.master.cs" Inherits="Aldental.Sistema" %>
+
+<%@ Register assembly="DevExpress.Web.v9.1, Version=9.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxNavBar" tagprefix="dxnb" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>
+Free Website Templates
+</title>
+
+<link rel="stylesheet" href="Stylesheet1.css" type="text/css" media="screen" />
+
+        <style type="text/css">
+            .style1
+            {
+                width: 100%;
+                height: 326px;
+            }
+            .style8
+            {
+                height: 19px;
+                width: 818px;
+            }
+            .style9
+            {
+                height: 19px;
+                width: 147px;
+            }
+            .style10
+            {
+                width: 147px;
+            }
+            .style11
+            {
+                width: 818px;
+            }
+            </style>
+
+</head>
+
+<body>
+
+    <form id="form1" runat="server">
+
+<div id="body_wrapper" style="background-color: #003366">
+
+	<div class="clearthis"></div>
+
+
+	<!-- Start of Welcome to my Site -->
+
+	<div id="welcome">
+
+		<div class="content_header">
+		<h2><span>Welcome to my Site</span></h2>
+
+		</div>
+		<div>
+
+		<div class="content" style="background-color: #003366">
+
+			
+
+
+            &nbsp;<table class="style1" 
+                style="background-color: #FFFFFF;">
+        <tr>
+            <td class="style9" bgcolor="#003366">
+                            </td>
+            <td class="style8" bgcolor="#003366">
+                &nbsp;</td>
+        </tr>
+        <tr bgcolor="#666633">
+            <td bgcolor="White" class="style10">
+                <dxnb:ASPxNavBar ID="ASPxNavBar2" runat="server" EnableAnimation="True" 
+                    EnableCallbackCompression="True" EnableCallBacks="True" 
+                    EnableClientSideAPI="True" CssFilePath="~/App_Themes/Aqua/{0}/styles.css" 
+                    CssPostfix="Aqua" ImageFolder="~/App_Themes/Aqua/{0}/" Width="146px" 
+                    onitemclick="ASPxNavBar2_ItemClick" GroupSpacing="1px">
+                    <Groups>
+                        <dxnb:NavBarGroup Text="VENTAS">
+                            <ItemImage Height="20px" Url="~/images/factura2.jpg" Width="20px" />
+                            <Items>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_BuscarClien.aspx" Text="Cliente">
+                                </dxnb:NavBarItem>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_BuscarEmplea.aspx" Text="Empleado">
+                                </dxnb:NavBarItem>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_BuscarFacturaCliente.aspx" 
+                                    Text="Factura Cliente">
+                                </dxnb:NavBarItem>
+                            </Items>
+                        </dxnb:NavBarGroup>
+                        <dxnb:NavBarGroup Text="COMPRAS">
+                            <ItemImage Height="20px" Url="~/images/carrito.JPG" Width="20px" />
+                            <Items>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_BuscarProveedor.aspx" Text="Proveedor">
+                                </dxnb:NavBarItem>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_BuscarOrdenCompra.aspx" 
+                                    Text="Ordenes de Compra">
+                                </dxnb:NavBarItem>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_Ingresos.aspx" 
+                                    Text="Ingresos de Bodega">
+                                </dxnb:NavBarItem>
+                            </Items>
+                        </dxnb:NavBarGroup>
+                        <dxnb:NavBarGroup Text="INVENTARIO">
+                            <CollapseImage Height="10px" Width="10px" />
+                            <expandimage height="10px" width="10px" />
+                            <itemimage height="20px" url="~/images/inventario.bmp" width="20px" />
+                            <Items>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_BuscaProductos.aspx" Text="Producto">
+                                </dxnb:NavBarItem>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_BuscarTipoProducto.aspx" 
+                                    Text="Tipo Producto">
+                                </dxnb:NavBarItem>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_BuscarModeloProducto.aspx" 
+                                    Text="Modelo">
+                                </dxnb:NavBarItem>
+                                <dxnb:NavBarItem Name="Marca" NavigateUrl="~/WebForm_BuscarMarcaProducto.aspx" 
+                                    Text="Marca">
+                                </dxnb:NavBarItem>
+                                <dxnb:NavBarItem Name="Material" 
+                                    NavigateUrl="~/WebForm_BuscarMaterialProducto.aspx" Text="Material">
+                                </dxnb:NavBarItem>
+                            </Items>
+                        </dxnb:NavBarGroup>
+                        <dxnb:NavBarGroup Text="CONTABILIDAD">
+                            <ItemImage Height="20px" Url="~/images/contabilidad.bmp" Width="20px" />
+                            <Items>
+                                <dxnb:NavBarItem Name="Impuesto" NavigateUrl="~/WebForm_BuscarImpuesto.aspx" 
+                                    Text="Impuesto">
+                                </dxnb:NavBarItem>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_BuscarDescuento.aspx" Text="Descuento">
+                                </dxnb:NavBarItem>
+                            </Items>
+                        </dxnb:NavBarGroup>
+                        <dxnb:NavBarGroup Text="PERFIL">
+                            <Items>
+                                <dxnb:NavBarItem Text="Usuario" 
+                                    NavigateUrl="~/WebForm_BuscarUsuarioPerfil.aspx">
+                                </dxnb:NavBarItem>
+                                <dxnb:NavBarItem Text="Departamento" 
+                                    NavigateUrl="~/WebForm_BuscarDepartamento.aspx">
+                                </dxnb:NavBarItem>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_BuscarPerfil.aspx" 
+                                    Text="Tipo de Perfil">
+                                </dxnb:NavBarItem>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_BuscarCargo.aspx" Text="Cargo">
+                                </dxnb:NavBarItem>
+                            </Items>
+                            <ItemImage Height="20px" Url="~/images/User-128x128[1].PNG" Width="20px" />
+                        </dxnb:NavBarGroup>
+                        <dxnb:NavBarGroup Text="Reportes">
+                            <Items>
+                                <dxnb:NavBarItem NavigateUrl="~/WebForm_ReporteEFD.aspx" Text="Empleado">
+                                </dxnb:NavBarItem>
+                            </Items>
+                        </dxnb:NavBarGroup>
+                    </Groups>
+                    <LoadingPanelImage url="~/App_Themes/Aqua/Web/nbLoading.gif" />
+                    <ItemStyle ImageSpacing="10px" />
+                    <GroupContentStyle ItemSpacing="1px">
+                    </GroupContentStyle>
+                    <CollapseImage Url="~/App_Themes/Aqua/Web/nbCollapse.png" height="17px" 
+                        width="17px" />
+                    <ExpandImage Url="~/App_Themes/Aqua/Web/nbExpand.png" height="17px" 
+                        width="17px" />
+                </dxnb:ASPxNavBar>
+            </td>
+            <td bgcolor="White" class="style11">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderForma" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr bgcolor="#666633">
+            <td bgcolor="White" class="style10">
+                &nbsp;</td>
+            <td bgcolor="White" class="style11">
+                &nbsp;</td>
+        </tr>
+        </table>
+        </div>
+	</div>
+
+	<!-- End of Welcome to my Site -->
+
+
+	<!-- Start of Client List -->
+
+	<div id="clientlist">
+
+		<div class="clearthis">&nbsp;</div>
+
+	</div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+	<!-- End of Client List -->
+
+
+	<!-- Start of My Portfolio -->
+
+	<!-- End of Client List -->
+
+
+</div>
+</div>
+
+</form>
+<!-- Start of Page Footer -->
+
+<div id="page_footer" style="color: #FFFFFF; height: 0px;">
+    &nbsp;Sistema Aldental     ema Aldental     of Page Footer -->
+
+    >
+er -->
+
+    >
+</html>

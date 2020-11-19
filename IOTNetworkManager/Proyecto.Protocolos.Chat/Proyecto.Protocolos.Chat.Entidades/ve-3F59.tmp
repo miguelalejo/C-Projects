@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Win32;
+
+namespace Proyecto.Protocolos.Chat.Entidades
+{
+    [Serializable]
+    class InformacionBasica
+    {
+
+        public void GetInformacion()
+        {
+            labelMonitorsize.Text = SystemInformation.PrimaryMonitorSize.ToString();
+            labelSystem.Text = System.Environment.SystemDirectory;
+            labelMachineName.Text = System.Environment.MachineName;
+            labelMemoryMaped.Text = System.Environment.WorkingSet.ToString();
+            int q = System.Environment.TickCount;
+            int w = (q / 1000) / 60;
+            labelTheOSopen.Text = w.ToString() + "  Minute(s)";
+            labelOSversion.Text = System.Environment.OSVersion.ToString();
+            label12.Text = System.Environment.Version.ToString();
+            labelUserName.Text = System.Environment.UserName;
+            labelUserDomain.Text = System.Environment.UserDomainName;
+            RegistryKey Rkey = Registry.LocalMachine;
+            Rkey = Rkey.OpenSubKey("HARDWARE\\DESCRIPTION\\System\\CentralProcessor\\0");
+            labelCPU.Text = (string)Rkey.GetValue("ProcessorNameString");
+        }
+    }
+}

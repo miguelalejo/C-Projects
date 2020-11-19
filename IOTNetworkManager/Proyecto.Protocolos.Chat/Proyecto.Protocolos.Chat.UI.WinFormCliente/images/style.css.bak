@@ -1,0 +1,137 @@
+   body {
+     margin-top: 0px;
+     margin-left: 0px;
+     margin-right: 0px;
+     background: #f0f7fb;
+     font-family: Tahoma, Verdana;
+     font-size: 10pt;
+   }
+    #wrapper {
+      margin: 0px auto;
+      height: 502px;
+      width: 100%;
+      background: url(./images/content_bg.jpg);
+    }
+    
+    #menu {
+      margin: 0px auto;
+      height: 366px;
+      width: 170px;     
+      background: url(./images/menu_bg.jpg);
+      float: left;
+      margin-left: 50px;
+      padding-top: 10px;
+      padding-left: 11px;
+      text-align: center;
+    }
+
+    #menu h2 {
+     color: #00248F;
+     margin: 0px;
+     margin-bottom: 10px;
+    }
+
+    #content {
+      margin: 0px auto;
+      height: 500px;
+      width: 450px;     
+      background: url(./images/body_bg.jpg);
+      float: left;
+      margin-left: 50px;
+    }
+        
+    #content_body {
+      margin-left: 10px;
+      margin-top: 12px;
+      overflow: auto;
+      width: 430px;
+      height: 470px;
+    } 
+
+
+    #content_body h1, #content_body h2, #content_body h3 {
+     color: #00248F;
+     margin: 0px;
+     margin-bottom: 10px;
+     text-align: center;
+    }    
+
+   
+    
+    #footer {
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 11px;
+      font-weight: bold;
+    }
+    
+    #header_wrapper  {
+      width: 680px;
+      margin-left: 50px;
+      padding-top: 5px;
+    }
+    
+    #logo {
+      float: left;
+      width: 190px;
+    }
+    
+    #banner {
+      float: left;
+      width: 490px;
+    }    
+
+   img { border: 0px; }
+
+  a:link, a:visited, a:active {
+   color: #00248F;
+   text-decoration: none;
+  }
+  
+  a:hover {
+   color: red;
+   text-decoration: underline;
+  }  
+    
+/* the side manu stuff */
+
+.urbangreymenu{
+  width: 160px; /*width of menu*/
+}
+
+.urbangreymenu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0; /*bottom spacing between each UL and rest of content*/
+}
+
+.urbangreymenu ul li{
+   padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.urbangreymenu ul li a{
+  text-align: center;
+  font: normal 12px Arial;
+  color: black;
+  background: #93d9fc;
+  display: block;
+  padding: 5px 0;
+  line-height: 17px;
+  padding-left: 8px; /*link text is indented 8px*/
+  text-decoration: none;
+}
+
+.urbangreymenu ul li a:visited{
+  color: black;
+}
+
+.urbangreymenu ul li a:hover{ /*hover state CSS*/
+  color: #00248F;
+  background: #809FFF;
+}
+
+
+/* end the side menu stuff */

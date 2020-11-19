@@ -1,0 +1,64 @@
+﻿using System;
+using System.Drawing;
+using System.Collections;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Data;
+using Microsoft.Win32;
+
+namespace Proyecto.Protocolos.Chat.Entidades
+{
+    [Serializable]
+    public class InformacionBasica
+    {
+        string tamañomonitor;
+        string direcotriosistema;
+        string nombremaquina;
+        long tamañomemoria;
+        int minutosactiva;
+        string opversion;
+        string version;
+        string nombreusuario;
+        string nombreusuariodomino;
+        string tipoprocesador;
+        string nombreservipack;
+        string plataforma;
+        public InformacionBasica(string tamañomonitor,string direcotriosistema,string nombremaquina,long tamañomemoria,
+        int minutosactiva,string opversion,string version,string nombreusuario,string nombreusuariodomino, string tipoprocesador,string nombreservipack,string plataforma)
+        {
+            this.direcotriosistema = direcotriosistema;
+            this.minutosactiva = minutosactiva;
+            this.nombremaquina = nombremaquina;
+            this.nombreservipack = nombreservipack;
+            this.nombreusuario = nombreusuario;
+            this.nombreusuariodomino = nombreusuariodomino;
+            this.opversion = opversion;
+            this.plataforma = plataforma;
+            this.tamañomemoria = tamañomemoria;
+            this.tamañomonitor = tamañomonitor;
+            this.version = version;
+        }
+
+        public static void GetInformacion()
+        {
+            string tamañomonitor = SystemInformation.PrimaryMonitorSize;
+            string direcotriosistema = System.Environment.SystemDirectory;
+            string nombremaquina= System.Environment.MachineName;
+            long tamañomemoria = System.Environment.WorkingSet;
+            int q = System.Environment.TickCount;
+            int w = (q / 1000) / 60;
+            int minutosactiva = w;
+            string opversion = System.Environment.OSVersion.ToString();
+            string nombreservipack = System.Environment.OSVersion.ServicePack;
+            string plataforma = System.Environment.OSVersion.Platform.ToString();
+            string version = System.Environment.Version.ToString();
+            string nombreusuario = System.Environment.UserName;
+            string nombreusuariodomino = System.Environment.UserDomainName;
+            RegistryKey Rkey = Registry.LocalMachine;
+            Rkey = Rkey.OpenSubKey("HARDWARE\\DESCRIPTION\\System\\CentralProcessor\\0");
+            string tipoprocesador = (string)Rkey.GetValue("ProcessorNameString");
+            return new InformacionBasica(tamañomonitor, direcotriosistema, nombremaquina, tamañomemoria, minutosactiva, opversion,
+                version, nombreusuario, nombreusuariodomino, tipoprocesador, nombreservipack, plataforma);
+        }
+    }
+}

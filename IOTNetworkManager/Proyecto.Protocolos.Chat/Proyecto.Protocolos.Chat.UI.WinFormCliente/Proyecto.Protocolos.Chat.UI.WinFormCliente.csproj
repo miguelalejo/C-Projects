@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D98DBB6F-7026-4122-BB62-398F16F5E1A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Proyecto.Protocolos.Chat.UI.WinFormCliente</RootNamespace>
+    <AssemblyName>Proyecto.Protocolos.Chat.UI.WinFormCliente</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ManifestCertificateThumbprint>181E8B9B38B59BF81C817565DEB5CC3B42F97BBE</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Proyecto.Protocolos.Chat.UI.WinFormCliente_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\COMPAC\pUBLIS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfiguracionEquipo.cs" />
+    <Compile Include="FormCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCliente.Designer.cs">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPropiedades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPropiedades.Designer.cs">
+      <DependentUpon>FormPropiedades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSeccionPosicionCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSeccionPosicionCliente.Designer.cs">
+      <DependentUpon>FormSeccionPosicionCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCliente.resx">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPropiedades.resx">
+      <DependentUpon>FormPropiedades.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSeccionPosicionCliente.resx">
+      <DependentUpon>FormSeccionPosicionCliente.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="images\style.css.bak" />
+    <None Include="Properties\DataSources\Proyecto.Protocolos.Chat.Entidades.chat.datasource" />
+    <None Include="Properties\DataSources\Proyecto.Protocolos.Chat.Entidades.grupo.datasource" />
+    <None Include="Properties\DataSources\Proyecto.Protocolos.Chat.Entidades.usuarioperfil.datasource" />
+    <None Include="Properties\DataSources\Proyecto.Protocolos.Chat.Entidades.usuarioperfil_has_chat.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Proyecto.Protocolos.Chat.UI.WinFormCliente_TemporaryKey.pfx" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\B-Autonorte.png" />
+    <Content Include="Imagenes\Cliente.jpg" />
+    <Content Include="Imagenes\computador.jpg" />
+    <Content Include="Imagenes\fondo portada.jpg" />
+    <Content Include="Imagenes\InicioSesionA.jpg" />
+    <Content Include="Imagenes\pc.jpg" />
+    <Content Include="Imagenes\propiedades_15.gif" />
+    <Content Include="Imagenes\servidor-web.jpg" />
+    <Content Include="Imagenes\servidor5.jpg" />
+    <Content Include="Imagenes\tabla de colores.gif" />
+    <Content Include="images\228019.gif" />
+    <Content Include="images\bloqueado.gif" />
+    <Content Include="images\chat-facebook.png" />
+    <Content Include="images\chat.JPG" />
+    <Content Include="images\chat2.jpg" />
+    <Content Include="images\cine.jpg" />
+    <Content Include="images\cocina.jpg" />
+    <Content Include="images\computador.jpg" />
+    <Content Include="images\desbloquear-Windows.jpg" />
+    <Content Include="images\fondo portada.jpg" />
+    <Content Include="images\galeria_autos_20.jpg" />
+    <Content Include="images\header_image.jpg" />
+    <Content Include="images\ICO_deportes.jpg" />
+    <Content Include="images\Logo-Chat.png" />
+    <Content Include="images\mano2.gif" />
+    <Content Include="images\ne.gif" />
+    <Content Include="images\nes.gif" />
+    <Content Include="images\nw.gif" />
+    <Content Include="images\nws.gif" />
+    <Content Include="images\se.gif" />
+    <Content Include="images\seg2.gif" />
+    <Content Include="images\ses.gif" />
+    <Content Include="images\Ses1.jpg" />
+    <Content Include="images\sesion.jpg" />
+    <Content Include="images\stock_contact-list.png" />
+    <Content Include="images\style.css" />
+    <Content Include="images\sw.gif" />
+    <Content Include="images\sws.gif" />
+    <Content Include="images\tecnologia1.jpg" />
+    <Content Include="images\tunning-tuning-autos-deportivos-09.jpg" />
+    <Content Include="images\untitled.jpg" />
+    <Content Include="images\usuario-bloqueado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Proyecto.Protocolos.Chat.Entidades\Proyecto.Protocolos.Chat.Entidades.csproj">
+      <Project>{7EC38D44-1D6F-4BE3-88F9-9EE9A0D3B019}</Project>
+      <Name>Proyecto.Protocolos.Chat.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMICNTLLib">
+      <Guid>{5C65924B-E236-11D2-8899-00104B2AFB46}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMISCRIPTUTILSLib2">
+      <Guid>{94089A9F-400D-4D7A-9699-141DA0931ED0}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

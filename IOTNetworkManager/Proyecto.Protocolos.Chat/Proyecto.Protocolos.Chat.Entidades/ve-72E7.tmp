@@ -1,0 +1,80 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Diagnostics;
+
+namespace Proyecto.Protocolos.Chat.Entidades
+{
+    public class GetMacAddressFromIPAddress
+    {
+
+
+        public GetMacAddressFromIPAddress()
+        {
+
+        }
+
+        public string GetMacAddress(string IPAddress)
+        {
+
+            string strMacAddress = string.Empty;
+
+            try
+            {
+
+                string strTempMacAddress = string.Empty;
+
+                ProcessStartInfo objProcessStartInfo = new ProcessStartInfo();
+
+                Process objProcess = new Process();
+
+                objProcessStartInfo.FileName = "nbtstat";
+
+                objProcessStartInfo.RedirectStandardInput = false;
+
+                objProcessStartInfo.RedirectStandardOutput = true;
+
+                objProcessStartInfo.Arguments = "-A " + IPAddress;
+
+                objProcessStartInfo.UseShellExecute = false;
+
+                objProcess = Process.Start(objProcessStartInfo);
+
+                int Counter = -1;
+
+                while (Counter <= -1)
+                {
+
+                    Counter = strTempMacAddress.Trim().ToLower().IndexOf("mac address", 0);
+
+                    if (Counter > -1)
+                    {
+
+                        break;
+
+                    }
+
+                    strTempMacAddress = objProcess.StandardOutput.ReadLine();
+
+                }
+
+                objProcess.WaitForExit();
+
+                strMacAddress = strTempMacAddress.Trim();
+
+            }
+
+            catch (Exception Ex)
+            {
+
+                return Ex.Message;
+
+
+            }
+            return strMacAddress;
+
+        }
+
+    }
+}
