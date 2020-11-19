@@ -1,0 +1,21 @@
+D:\Mapear BD\MappingObjsLC\Mapping\obj\Debug\Mapping.exe
+D:\Mapear BD\MappingObjsLC\Mapping\obj\Debug\Mapping.pdb
+D:\Mapear BD\MappingObjsLC\Mapping\bin\Debug\Mapping.exe
+D:\Mapear BD\MappingObjsLC\Mapping\bin\Debug\Mapping.pdb
+D:\Mapear BD\MappingObjsLC\Mapping\obj\Debug\ResolveAssemblyReference.cache
+D:\Mapear BD\MappingObjsLC\Mapping\obj\Debug\Camlibel.Mapping.Form1.resources
+D:\Mapear BD\MappingObjsLC\Mapping\obj\Debug\Mapping.csproj.GenerateResource.Cache
+C:\Users\COMPAC\Desktop\MappingObjsLC2010\Mapping\obj\Debug\Mapping.exe
+C:\Users\COMPAC\Desktop\MappingObjsLC2010\Mapping\obj\Debug\Mapping.pdb
+C:\Users\COMPAC\Desktop\MappingObjsLC2010\Mapping\bin\Debug\Mapping.exe
+C:\Users\COMPAC\Desktop\MappingObjsLC2010\Mapping\bin\Debug\Mapping.pdb
+C:\Users\COMPAC\Desktop\MappingObjsLC2010\Mapping\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\Desktop\MappingObjsLC2010\Mapping\obj\Debug\Camlibel.Mapping.Form1.resources
+C:\Users\COMPAC\Desktop\MappingObjsLC2010\Mapping\obj\Debug\Mapping.csproj.GenerateResource.Cache
+C:\Users\COMPAC\MappingObjsLC2010\Mapping\bin\Debug\Mapping.exe
+C:\Users\COMPAC\MappingObjsLC2010\Mapping\bin\Debug\Mapping.pdb
+C:\Users\COMPAC\MappingObjsLC2010\Mapping\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\COMPAC\MappingObjsLC2010\Mapping\obj\Debug\Camlibel.Mapping.Form1.resources
+C:\Users\COMPAC\MappingObjsLC2010\Mapping\obj\Debug\Mapping.csproj.GenerateResource.Cache
+C:\Users\COMPAC\MappingObjsLC2010\Mapping\obj\Debug\Mapping.exe
+C:\Users\COMPAC\MappingObjsLC2010\Mapping\obj\Debug\Mapping.pdb

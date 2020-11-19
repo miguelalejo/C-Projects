@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Mapping">
+</Property><Property Name="Archivo de la solución" Value="D:\Mapear BD\MappingObjsLC\Mapping\Mapping.sln">
+</Property><Property Name="Archivo de opciones de usuario" Value="D:\Mapear BD\MappingObjsLC\Mapping\Mapping.suo">
+</Property><Property Name="Date" Value="Sábado, 25 de Abril de 2009">
+</Property><Property Name="Time" Value="21:13">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Mapping.sln" Description="La copia D:\Mapear BD\MappingObjsLC\Mapping\Backup\Mapping.sln del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="" Source="Mapping.suo" Description="La copia D:\Mapear BD\MappingObjsLC\Mapping\Backup\Mapping.suo del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="Mapping" Source="Mapping.csproj" Description="Se realizó correctamente la copia de seguridad del archivo de proyecto D:\Mapear BD\MappingObjsLC\Mapping\Backup\Mapping.csproj">
+</Event><Event ErrorLevel="0" Project="Mapping" Source="Mapping.csproj.user" Description="La copia de seguridad D:\Mapear BD\MappingObjsLC\Mapping\Backup\Mapping.csproj.user del archivo se ha creado correctamente">
+</Event><Event ErrorLevel="0" Project="Mapping" Source="AssemblyInfo.cs" Description="Se realizó correctamente la copia de seguridad del archivo D:\Mapear BD\MappingObjsLC\Mapping\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Mapping" Source="frmMapping.cs" Description="Se realizó correctamente la copia de seguridad del archivo D:\Mapear BD\MappingObjsLC\Mapping\Backup\frmMapping.cs">
+</Event><Event ErrorLevel="0" Project="Mapping" Source="Mapping.cs" Description="Se realizó correctamente la copia de seguridad del archivo D:\Mapear BD\MappingObjsLC\Mapping\Backup\Mapping.cs">
+</Event><Event ErrorLevel="0" Project="Mapping" Source="licenses.licx" Description="Se realizó correctamente la copia de seguridad del archivo D:\Mapear BD\MappingObjsLC\Mapping\Backup\licenses.licx">
+</Event><Event ErrorLevel="0" Project="Mapping" Source="frmMapping.resx" Description="Se realizó correctamente la copia de seguridad del archivo D:\Mapear BD\MappingObjsLC\Mapping\Backup\frmMapping.resx">
+</Event><Event ErrorLevel="0" Project="Mapping" Source="Mapping.csproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="Mapping" Source="Mapping.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Mapping.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="Mapping.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Mapping" Source="Mapping.csproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>
